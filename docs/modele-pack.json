@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "id": "fr-nouveau-sujet-01",
+  "title": "Titre affiché dans l'application",
+  "subject": "francais",
+  "topic": "accords",
+  "grade": 4,
+  "difficulty": 2,
+  "estimatedMinutes": 5,
+  "source": "PFEQ – … · Cahier … · Plan de la semaine du …",
+  "description": "Une phrase qui décrit ce que le pack fait travailler.",
+  "tags": [
+    "mot-clé"
+  ],
+  "defaultEnabled": true,
+  "items": [
+    {
+      "id": "ex-01",
+      "type": "qcm",
+      "skill": "nom-de-la-notion",
+      "question": "Énoncé de la question ?",
+      "choices": [
+        "Bonne réponse",
+        "Erreur fréquente",
+        "Autre erreur"
+      ],
+      "answer": 0,
+      "explanation": "La règle, expliquée simplement."
+    },
+    {
+      "id": "ex-02",
+      "type": "vraiFaux",
+      "skill": "nom-de-la-notion",
+      "statement": "Affirmation à juger.",
+      "answer": true,
+      "explanation": "Pourquoi c'est vrai."
+    },
+    {
+      "id": "ex-03",
+      "type": "texteATrous",
+      "skill": "nom-de-la-notion",
+      "prompt": "Phrase avec un ___ à compléter.",
+      "answers": [
+        "trou"
+      ],
+      "hint": "Un truc pour s'en souvenir.",
+      "explanation": "La règle."
+    },
+    {
+      "id": "ex-04",
+      "type": "association",
+      "skill": "nom-de-la-notion",
+      "instruction": "Associe chaque élément à son partenaire.",
+      "pairs": [
+        {
+          "left": "gauche 1",
+          "right": "droite 1"
+        },
+        {
+          "left": "gauche 2",
+          "right": "droite 2"
+        },
+        {
+          "left": "gauche 3",
+          "right": "droite 3"
+        }
+      ]
+    },
+    {
+      "id": "ex-05",
+      "type": "ordre",
+      "skill": "nom-de-la-notion",
+      "instruction": "Remets les éléments dans le bon ordre.",
+      "sequence": [
+        "premier",
+        "deuxième",
+        "troisième"
+      ]
+    },
+    {
+      "id": "ex-06",
+      "type": "classement",
+      "skill": "nom-de-la-notion",
+      "instruction": "Glisse chaque étiquette dans la bonne colonne.",
+      "buckets": [
+        "Colonne A",
+        "Colonne B"
+      ],
+      "tokens": [
+        {
+          "text": "étiquette 1",
+          "bucket": "Colonne A"
+        },
+        {
+          "text": "étiquette 2",
+          "bucket": "Colonne B"
+        },
+        {
+          "text": "étiquette 3",
+          "bucket": "Colonne A"
+        },
+        {
+          "text": "étiquette 4",
+          "bucket": "Colonne B"
+        }
+      ]
+    },
+    {
+      "id": "ex-07",
+      "type": "calcul",
+      "skill": "nom-de-la-notion",
+      "question": "12 × 4 = ?",
+      "answer": 48,
+      "timeTargetMs": 8000,
+      "explanation": "(10 × 4) + (2 × 4) = 40 + 8 = 48."
+    },
+    {
+      "id": "ex-08",
+      "type": "lecture",
+      "passage": {
+        "title": "Titre du texte",
+        "text": "Le texte à lire, d'une longueur adaptée à la 4e année (80 à 150 mots)."
+      },
+      "questions": [
+        {
+          "id": "q1",
+          "question": "Question de repérage ?",
+          "choices": [
+            "Bonne réponse",
+            "Erreur"
+          ],
+          "answer": 0,
+          "skill": "reperage-information"
+        },
+        {
+          "id": "q2",
+          "question": "Question d'inférence ?",
+          "choices": [
+            "Erreur",
+            "Bonne réponse"
+          ],
+          "answer": 1,
+          "skill": "inference"
+        }
+      ],
+      "skill": "comprehension"
+    }
+  ]
+}

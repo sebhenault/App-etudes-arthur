@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "id": "ma-division-01",
+  "title": "La division",
+  "subject": "mathematique",
+  "topic": "division",
+  "grade": 4,
+  "difficulty": 2,
+  "estimatedMinutes": 5,
+  "source": "PFEQ – Opérations sur les nombres naturels (2e cycle) · Cahier Terminus 4e",
+  "description": "Division sans reste et avec reste, lien avec la multiplication, partage équitable.",
+  "tags": [
+    "division",
+    "reste",
+    "partage"
+  ],
+  "defaultEnabled": true,
+  "items": [
+    {
+      "id": "div-01",
+      "type": "calcul",
+      "skill": "division-simple",
+      "question": "56 ÷ 7 = ?",
+      "answer": 8,
+      "timeTargetMs": 8000
+    },
+    {
+      "id": "div-02",
+      "type": "calcul",
+      "skill": "division-simple",
+      "question": "81 ÷ 9 = ?",
+      "answer": 9,
+      "timeTargetMs": 8000
+    },
+    {
+      "id": "div-03",
+      "type": "calcul",
+      "skill": "division-simple",
+      "question": "72 ÷ 8 = ?",
+      "answer": 9
+    },
+    {
+      "id": "div-04",
+      "type": "calcul",
+      "skill": "division-2-chiffres",
+      "question": "96 ÷ 4 = ?",
+      "answer": 24,
+      "explanation": "80 ÷ 4 = 20 et 16 ÷ 4 = 4, donc 24."
+    },
+    {
+      "id": "div-05",
+      "type": "qcm",
+      "skill": "division-reste",
+      "question": "Dans 38 ÷ 5, quel est le reste ?",
+      "choices": [
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 1,
+      "explanation": "5 × 7 = 35, il reste 3. On écrit 38 ÷ 5 = 7 reste 3."
+    },
+    {
+      "id": "div-06",
+      "type": "calcul",
+      "skill": "division-reste",
+      "question": "Dans 47 ÷ 6, quel est le quotient (sans le reste) ?",
+      "answer": 7,
+      "explanation": "6 × 7 = 42, il reste 5."
+    },
+    {
+      "id": "div-07",
+      "type": "qcm",
+      "skill": "lien-mult-div",
+      "question": "Quelle multiplication vérifie 63 ÷ 9 = 7 ?",
+      "choices": [
+        "9 × 7 = 63",
+        "63 × 9 = 7",
+        "9 + 7 = 63"
+      ],
+      "answer": 0,
+      "explanation": "La division et la multiplication sont des opérations inverses."
+    },
+    {
+      "id": "div-08",
+      "type": "calcul",
+      "skill": "probleme-division",
+      "question": "On partage 48 biscuits également entre 6 amis. Combien chacun en reçoit-il ?",
+      "answer": 8,
+      "unit": "biscuits"
+    },
+    {
+      "id": "div-09",
+      "type": "calcul",
+      "skill": "probleme-division",
+      "question": "Une classe de 27 élèves forme des équipes de 4. Combien d'équipes complètes peut-on former ?",
+      "answer": 6,
+      "unit": "équipes",
+      "explanation": "27 ÷ 4 = 6 reste 3 : 6 équipes complètes et 3 élèves en plus."
+    },
+    {
+      "id": "div-10",
+      "type": "association",
+      "skill": "division-simple",
+      "instruction": "Associe chaque division à son quotient.",
+      "pairs": [
+        {
+          "left": "36 ÷ 6",
+          "right": "6"
+        },
+        {
+          "left": "42 ÷ 6",
+          "right": "7"
+        },
+        {
+          "left": "45 ÷ 5",
+          "right": "9"
+        },
+        {
+          "left": "64 ÷ 8",
+          "right": "8"
+        }
+      ]
+    }
+  ]
+}

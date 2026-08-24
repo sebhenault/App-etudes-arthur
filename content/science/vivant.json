@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "id": "sc-vivant-01",
+  "title": "Le monde vivant",
+  "subject": "science",
+  "topic": "vivant",
+  "grade": 4,
+  "difficulty": 1,
+  "estimatedMinutes": 5,
+  "source": "PFEQ – Science et technologie, 2e cycle (L'univers vivant)",
+  "description": "Besoins des vivants, chaînes alimentaires, adaptations et parties de la plante.",
+  "tags": ["vivant", "chaîne alimentaire", "adaptation", "plantes"],
+  "defaultEnabled": true,
+  "items": [
+    {
+      "id": "viv-01",
+      "type": "ordre",
+      "skill": "chaine-alimentaire",
+      "instruction": "Remets cette chaîne alimentaire en ordre, du premier au dernier.",
+      "sequence": ["Herbe", "Lièvre", "Renard"],
+      "explanation": "La flèche d'une chaîne alimentaire signifie « est mangé par »."
+    },
+    {
+      "id": "viv-02",
+      "type": "classement",
+      "skill": "regimes-alimentaires",
+      "instruction": "Classe ces animaux selon leur régime alimentaire.",
+      "buckets": ["Herbivore", "Carnivore", "Omnivore"],
+      "tokens": [
+        { "text": "L'orignal", "bucket": "Herbivore" },
+        { "text": "Le loup", "bucket": "Carnivore" },
+        { "text": "L'ours noir", "bucket": "Omnivore" },
+        { "text": "Le castor", "bucket": "Herbivore" },
+        { "text": "Le renard", "bucket": "Carnivore" },
+        { "text": "Le raton laveur", "bucket": "Omnivore" }
+      ]
+    },
+    {
+      "id": "viv-03",
+      "type": "association",
+      "skill": "parties-plante",
+      "instruction": "Associe chaque partie de la plante à son rôle.",
+      "pairs": [
+        { "left": "Les racines", "right": "Absorbent l'eau et retiennent la plante" },
+        { "left": "La tige", "right": "Transporte l'eau et soutient la plante" },
+        { "left": "Les feuilles", "right": "Captent la lumière du soleil" },
+        { "left": "La fleur", "right": "Permet la reproduction" }
+      ]
+    },
+    {
+      "id": "viv-04",
+      "type": "qcm",
+      "skill": "besoins-vivants",
+      "question": "De quoi une plante a-t-elle besoin pour vivre ?",
+      "choices": [
+        "D'eau, de lumière, d'air et de minéraux",
+        "De sucre et de sel seulement",
+        "D'obscurité complète"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "viv-05",
+      "type": "qcm",
+      "skill": "adaptation",
+      "question": "Pourquoi le lièvre d'Amérique devient-il blanc en hiver ?",
+      "choices": [
+        "Pour se camoufler dans la neige",
+        "Parce qu'il a froid",
+        "Pour être plus rapide"
+      ],
+      "answer": 0,
+      "explanation": "C'est une adaptation : le camouflage le protège des prédateurs."
+    },
+    {
+      "id": "viv-06",
+      "type": "classement",
+      "skill": "hivernation",
+      "instruction": "Comment ces animaux passent-ils l'hiver au Québec ?",
+      "buckets": ["Migration", "Hibernation ou dormance"],
+      "tokens": [
+        { "text": "La bernache du Canada", "bucket": "Migration" },
+        { "text": "La marmotte", "bucket": "Hibernation ou dormance" },
+        { "text": "L'hirondelle", "bucket": "Migration" },
+        { "text": "L'ours noir", "bucket": "Hibernation ou dormance" }
+      ]
+    },
+    {
+      "id": "viv-07",
+      "type": "vraiFaux",
+      "skill": "besoins-vivants",
+      "statement": "Tous les êtres vivants ont besoin d'eau pour survivre.",
+      "answer": true
+    },
+    {
+      "id": "viv-08",
+      "type": "qcm",
+      "skill": "corps-humain",
+      "question": "Quel organe pompe le sang dans tout le corps ?",
+      "choices": ["Le cœur", "L'estomac", "Le poumon"],
+      "answer": 0
+    }
+  ]
+}

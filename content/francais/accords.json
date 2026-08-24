@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "id": "fr-accords-01",
+  "title": "Les accords dans la phrase",
+  "subject": "francais",
+  "topic": "accords",
+  "grade": 4,
+  "difficulty": 2,
+  "estimatedMinutes": 6,
+  "source": "PFEQ – Écrire des textes variés (2e cycle) · Cahier Terminus 4e",
+  "description": "Accord du déterminant et de l'adjectif dans le groupe du nom, et accord du verbe avec son sujet.",
+  "tags": ["accord", "groupe du nom", "sujet-verbe"],
+  "defaultEnabled": true,
+  "items": [
+    {
+      "id": "acc-01",
+      "type": "qcm",
+      "skill": "accord-nom-adjectif",
+      "question": "Quelle phrase est correctement accordée ?",
+      "choices": [
+        "Les grandes maisons blanches sont vieilles.",
+        "Les grande maisons blanche sont vieille.",
+        "Les grandes maison blanches sont vieille."
+      ],
+      "answer": 0,
+      "explanation": "Dans le groupe du nom, l'adjectif reçoit le genre et le nombre du nom : « maisons » est féminin pluriel, donc « grandes » et « blanches » aussi."
+    },
+    {
+      "id": "acc-02",
+      "type": "texteATrous",
+      "skill": "accord-nom-adjectif",
+      "prompt": "Arthur a lu trois ___ (livre) passionnants.",
+      "answers": ["livres"],
+      "hint": "Trois, c'est plus qu'un !",
+      "explanation": "« trois livres » : le déterminant indique le pluriel, le nom prend un s."
+    },
+    {
+      "id": "acc-03",
+      "type": "texteATrous",
+      "skill": "accord-sujet-verbe",
+      "prompt": "Les élèves de la classe ___ (arriver, présent) à huit heures.",
+      "answers": ["arrivent"],
+      "hint": "Qui est-ce qui arrive ? Les élèves → ils.",
+      "explanation": "Le sujet « Les élèves » est 3e personne du pluriel : le verbe prend -ent."
+    },
+    {
+      "id": "acc-04",
+      "type": "texteATrous",
+      "skill": "accord-sujet-verbe",
+      "prompt": "Mon frère et moi ___ (jouer, présent) au hockey.",
+      "answers": ["jouons"],
+      "hint": "Mon frère et moi = nous.",
+      "explanation": "« Mon frère et moi » se remplace par « nous » : le verbe se termine par -ons."
+    },
+    {
+      "id": "acc-05",
+      "type": "classement",
+      "skill": "genre-nombre",
+      "instruction": "Glisse chaque groupe du nom dans la bonne colonne.",
+      "buckets": ["Singulier", "Pluriel"],
+      "tokens": [
+        { "text": "un chandail chaud", "bucket": "Singulier" },
+        { "text": "des bottes mouillées", "bucket": "Pluriel" },
+        { "text": "les cahiers neufs", "bucket": "Pluriel" },
+        { "text": "ma tuque bleue", "bucket": "Singulier" },
+        { "text": "plusieurs amis fidèles", "bucket": "Pluriel" },
+        { "text": "cette belle journée", "bucket": "Singulier" }
+      ],
+      "explanation": "Le déterminant est un excellent indice du nombre du groupe du nom."
+    },
+    {
+      "id": "acc-06",
+      "type": "qcm",
+      "skill": "pluriel-irregulier",
+      "question": "Quel est le pluriel de « un journal » ?",
+      "choices": ["des journals", "des journaux", "des journeaux"],
+      "answer": 1,
+      "explanation": "Les noms en -al font -aux au pluriel : un journal → des journaux."
+    },
+    {
+      "id": "acc-07",
+      "type": "qcm",
+      "skill": "pluriel-irregulier",
+      "question": "Quel est le pluriel de « un chapeau » ?",
+      "choices": ["des chapeaus", "des chapeaux", "des chapeauds"],
+      "answer": 1,
+      "explanation": "Les noms en -eau prennent un x au pluriel."
+    },
+    {
+      "id": "acc-08",
+      "type": "vraiFaux",
+      "skill": "accord-sujet-verbe",
+      "statement": "Dans « Les oiseaux du parc chantent », le sujet du verbe est « du parc ».",
+      "answer": false,
+      "explanation": "Le sujet est « Les oiseaux ». On le trouve avec la question : Qui est-ce qui chante ?"
+    },
+    {
+      "id": "acc-09",
+      "type": "association",
+      "skill": "accord-nom-adjectif",
+      "instruction": "Associe chaque nom à l'adjectif bien accordé.",
+      "pairs": [
+        { "left": "une tuque", "right": "neuve" },
+        { "left": "des mitaines", "right": "chaudes" },
+        { "left": "un foulard", "right": "long" },
+        { "left": "des patins", "right": "usés" }
+      ]
+    },
+    {
+      "id": "acc-10",
+      "type": "texteATrous",
+      "skill": "accord-nom-adjectif",
+      "prompt": "Ces ___ (nouveau) élèves sont très gentils.",
+      "answers": ["nouveaux"],
+      "explanation": "« nouveau » devient « nouveaux » au masculin pluriel."
+    },
+    {
+      "id": "acc-11",
+      "type": "qcm",
+      "skill": "accord-sujet-verbe",
+      "question": "Choisis la bonne forme : « La bande de copains ___ dans la cour. »",
+      "choices": ["jouent", "joue", "jouons"],
+      "answer": 1,
+      "explanation": "Le noyau du sujet est « La bande » (singulier), donc le verbe est au singulier."
+    },
+    {
+      "id": "acc-12",
+      "type": "ordre",
+      "skill": "structure-phrase",
+      "instruction": "Remets les mots en ordre pour former une phrase bien accordée.",
+      "sequence": ["Les", "petites", "chattes", "grises", "dorment"],
+      "explanation": "Sujet (groupe du nom) puis verbe : Les petites chattes grises dorment."
+    }
+  ]
+}

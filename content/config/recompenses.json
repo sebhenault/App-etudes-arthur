@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "description": "Contenus débloqués par la progression : avatars et thèmes de l'espace enfant.",
+  "avatars": [
+    { "id": "renard", "emoji": "🦊", "label": "Renard", "unlockLevel": 1 },
+    { "id": "castor", "emoji": "🦫", "label": "Castor", "unlockLevel": 1 },
+    { "id": "hibou", "emoji": "🦉", "label": "Hibou", "unlockLevel": 2 },
+    { "id": "orignal", "emoji": "🫎", "label": "Orignal", "unlockLevel": 3 },
+    { "id": "dragon", "emoji": "🐲", "label": "Dragon", "unlockLevel": 5 },
+    { "id": "fusee", "emoji": "🚀", "label": "Fusée", "unlockLevel": 7 },
+    { "id": "licorne", "emoji": "🦄", "label": "Licorne", "unlockLevel": 10 },
+    { "id": "robot", "emoji": "🤖", "label": "Robot", "unlockLevel": 12 }
+  ],
+  "themes": [
+    { "id": "classique", "label": "Classique", "primary": "#5B7CFA", "unlockLevel": 1 },
+    { "id": "foret", "label": "Forêt", "primary": "#27AE60", "unlockLevel": 4 },
+    { "id": "coucher-soleil", "label": "Coucher de soleil", "primary": "#F2994A", "unlockLevel": 6 },
+    { "id": "espace", "label": "Espace", "primary": "#6C4DF6", "unlockLevel": 9 }
+  ]
+}

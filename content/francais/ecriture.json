@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "id": "fr-ecriture-01",
+  "title": "L'écriture : phrase, ponctuation et organisation",
+  "subject": "francais",
+  "topic": "ecriture",
+  "grade": 4,
+  "difficulty": 2,
+  "estimatedMinutes": 6,
+  "source": "PFEQ – Écrire des textes variés · Préparation à l'épreuve ministérielle de français 4e année",
+  "description": "Construction de la phrase, ponctuation, marqueurs de relation et structure du récit.",
+  "tags": ["écriture", "ponctuation", "phrase", "récit"],
+  "defaultEnabled": true,
+  "items": [
+    {
+      "id": "ecr-01",
+      "type": "qcm",
+      "skill": "ponctuation",
+      "question": "Quelle phrase est bien ponctuée ?",
+      "choices": [
+        "quel beau match nous avons vu",
+        "Quel beau match nous avons vu !",
+        "Quel beau match nous avons vu"
+      ],
+      "answer": 1,
+      "explanation": "Une phrase commence par une majuscule et se termine par un signe de ponctuation."
+    },
+    {
+      "id": "ecr-02",
+      "type": "association",
+      "skill": "types-phrases",
+      "instruction": "Associe chaque phrase à son type.",
+      "pairs": [
+        { "left": "Où as-tu mis mon crayon ?", "right": "Phrase interrogative" },
+        { "left": "Ferme la porte, s'il te plaît.", "right": "Phrase impérative" },
+        { "left": "Comme il fait froid !", "right": "Phrase exclamative" },
+        { "left": "Le chat dort sur le divan.", "right": "Phrase déclarative" }
+      ]
+    },
+    {
+      "id": "ecr-03",
+      "type": "texteATrous",
+      "skill": "marqueurs-relation",
+      "prompt": "Il pleuvait beaucoup, ___ nous sommes restés à l'intérieur. (marqueur de conséquence)",
+      "answers": ["donc", "alors", "c'est pourquoi"],
+      "explanation": "« donc », « alors » et « c'est pourquoi » expriment la conséquence."
+    },
+    {
+      "id": "ecr-04",
+      "type": "ordre",
+      "skill": "structure-recit",
+      "instruction": "Remets les parties du récit dans l'ordre.",
+      "sequence": [
+        "Situation de départ",
+        "Élément déclencheur",
+        "Péripéties",
+        "Dénouement",
+        "Situation finale"
+      ]
+    },
+    {
+      "id": "ecr-05",
+      "type": "qcm",
+      "skill": "phrase-complete",
+      "question": "Laquelle n'est PAS une phrase complète ?",
+      "choices": [
+        "Le gros chien noir du voisin.",
+        "Le gros chien noir du voisin aboie.",
+        "Il aboie très fort."
+      ],
+      "answer": 0,
+      "explanation": "Une phrase complète a un sujet ET un verbe conjugué."
+    },
+    {
+      "id": "ecr-06",
+      "type": "classement",
+      "skill": "marqueurs-relation",
+      "instruction": "Classe les marqueurs selon ce qu'ils expriment.",
+      "buckets": ["Le temps", "L'opposition"],
+      "tokens": [
+        { "text": "ensuite", "bucket": "Le temps" },
+        { "text": "mais", "bucket": "L'opposition" },
+        { "text": "enfin", "bucket": "Le temps" },
+        { "text": "cependant", "bucket": "L'opposition" },
+        { "text": "d'abord", "bucket": "Le temps" },
+        { "text": "pourtant", "bucket": "L'opposition" }
+      ]
+    },
+    {
+      "id": "ecr-07",
+      "type": "vraiFaux",
+      "skill": "dialogue",
+      "statement": "Dans un dialogue, on utilise un tiret pour indiquer qu'un nouveau personnage parle.",
+      "answer": true,
+      "explanation": "On utilise des guillemets et des tirets pour marquer les changements d'interlocuteur."
+    },
+    {
+      "id": "ecr-08",
+      "type": "qcm",
+      "skill": "revision-texte",
+      "question": "Que faut-il vérifier en priorité quand on relit son texte ?",
+      "choices": [
+        "La couleur du crayon",
+        "Les accords, la ponctuation et le sens des phrases",
+        "Le nombre de pages"
+      ],
+      "answer": 1,
+      "explanation": "La stratégie de révision : sens → phrases → accords → orthographe."
+    },
+    {
+      "id": "ecr-09",
+      "type": "texteATrous",
+      "skill": "ponctuation",
+      "prompt": "Ajoute le bon signe : « Est-ce que tu viens patiner avec moi ___ »",
+      "answers": ["?"],
+      "explanation": "Une question se termine par un point d'interrogation."
+    },
+    {
+      "id": "ecr-10",
+      "type": "ordre",
+      "skill": "structure-phrase",
+      "instruction": "Remets les mots en ordre pour former une phrase interrogative.",
+      "sequence": ["Pourquoi", "les", "oiseaux", "migrent-ils", "en", "automne", "?"]
+    }
+  ]
+}

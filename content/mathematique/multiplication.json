@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "id": "ma-multiplication-01",
+  "title": "La multiplication",
+  "subject": "mathematique",
+  "topic": "multiplication",
+  "grade": 4,
+  "difficulty": 2,
+  "estimatedMinutes": 5,
+  "source": "PFEQ – Opérations sur les nombres naturels (2e cycle) · Cahier Matcha 4e",
+  "description": "Tables jusqu'à 10, multiplication par 10 et 100, multiplication à deux chiffres et propriétés.",
+  "tags": ["multiplication", "tables", "calcul mental"],
+  "defaultEnabled": true,
+  "items": [
+    { "id": "mul-01", "type": "calcul", "skill": "table-7", "question": "7 × 8 = ?", "answer": 56, "timeTargetMs": 6000 },
+    { "id": "mul-02", "type": "calcul", "skill": "table-6", "question": "6 × 9 = ?", "answer": 54, "timeTargetMs": 6000 },
+    { "id": "mul-03", "type": "calcul", "skill": "table-8", "question": "8 × 7 = ?", "answer": 56, "timeTargetMs": 6000 },
+    { "id": "mul-04", "type": "calcul", "skill": "table-9", "question": "9 × 6 = ?", "answer": 54, "timeTargetMs": 6000 },
+    { "id": "mul-05", "type": "calcul", "skill": "multiplier-10-100", "question": "34 × 100 = ?", "answer": 3400, "explanation": "Multiplier par 100 ajoute deux zéros." },
+    { "id": "mul-06", "type": "calcul", "skill": "multiplier-10-100", "question": "56 × 10 = ?", "answer": 560 },
+    { "id": "mul-07", "type": "calcul", "skill": "multiplication-2-chiffres", "question": "23 × 4 = ?", "answer": 92, "explanation": "(20 × 4) + (3 × 4) = 80 + 12 = 92." },
+    { "id": "mul-08", "type": "calcul", "skill": "multiplication-2-chiffres", "question": "125 × 3 = ?", "answer": 375 },
+    {
+      "id": "mul-09",
+      "type": "qcm",
+      "skill": "propriete-commutative",
+      "question": "Quelle égalité est vraie ?",
+      "choices": ["6 × 4 = 4 × 6", "6 × 4 = 6 + 4", "6 × 4 = 4 − 6"],
+      "answer": 0,
+      "explanation": "La multiplication est commutative : l'ordre des facteurs ne change pas le produit."
+    },
+    {
+      "id": "mul-10",
+      "type": "association",
+      "skill": "tables",
+      "instruction": "Associe chaque multiplication à son produit.",
+      "pairs": [
+        { "left": "7 × 7", "right": "49" },
+        { "left": "8 × 8", "right": "64" },
+        { "left": "9 × 9", "right": "81" },
+        { "left": "6 × 7", "right": "42" }
+      ]
+    },
+    {
+      "id": "mul-11",
+      "type": "classement",
+      "skill": "multiples",
+      "instruction": "Classe ces nombres selon qu'ils sont des multiples de 5 ou de 3.",
+      "buckets": ["Multiple de 5", "Multiple de 3"],
+      "tokens": [
+        { "text": "45", "bucket": "Multiple de 5" },
+        { "text": "27", "bucket": "Multiple de 3" },
+        { "text": "70", "bucket": "Multiple de 5" },
+        { "text": "18", "bucket": "Multiple de 3" },
+        { "text": "35", "bucket": "Multiple de 5" },
+        { "text": "24", "bucket": "Multiple de 3" }
+      ],
+      "explanation": "Un multiple de 5 se termine par 0 ou 5. Pour 3, la somme des chiffres est un multiple de 3."
+    },
+    {
+      "id": "mul-12",
+      "type": "calcul",
+      "skill": "probleme-multiplicatif",
+      "question": "Une boîte contient 12 crayons. Combien de crayons dans 7 boîtes ?",
+      "answer": 84,
+      "unit": "crayons"
+    }
+  ]
+}

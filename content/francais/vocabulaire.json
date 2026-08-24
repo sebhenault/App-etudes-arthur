@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "id": "fr-vocabulaire-01",
+  "title": "Le vocabulaire : synonymes, antonymes et familles de mots",
+  "subject": "francais",
+  "topic": "vocabulaire",
+  "grade": 4,
+  "difficulty": 1,
+  "estimatedMinutes": 5,
+  "source": "PFEQ – Lexique 2e cycle · Alloprof 4e année",
+  "description": "Synonymes, antonymes, familles de mots, préfixes et sens des expressions.",
+  "tags": ["vocabulaire", "synonyme", "antonyme", "famille de mots"],
+  "defaultEnabled": true,
+  "items": [
+    {
+      "id": "voc-01",
+      "type": "association",
+      "skill": "synonyme",
+      "instruction": "Associe chaque mot à son synonyme.",
+      "pairs": [
+        { "left": "content", "right": "joyeux" },
+        { "left": "rapide", "right": "vite" },
+        { "left": "débuter", "right": "commencer" },
+        { "left": "malin", "right": "rusé" }
+      ]
+    },
+    {
+      "id": "voc-02",
+      "type": "association",
+      "skill": "antonyme",
+      "instruction": "Associe chaque mot à son contraire.",
+      "pairs": [
+        { "left": "grand", "right": "petit" },
+        { "left": "monter", "right": "descendre" },
+        { "left": "clair", "right": "sombre" },
+        { "left": "bruyant", "right": "silencieux" }
+      ]
+    },
+    {
+      "id": "voc-03",
+      "type": "qcm",
+      "skill": "famille-mots",
+      "question": "Quel mot n'appartient PAS à la famille du mot « terre » ?",
+      "choices": ["terrain", "atterrir", "terrible", "souterrain"],
+      "answer": 2,
+      "explanation": "« terrible » vient de « terreur », pas de « terre »."
+    },
+    {
+      "id": "voc-04",
+      "type": "classement",
+      "skill": "prefixe",
+      "instruction": "Classe les mots selon le sens de leur préfixe.",
+      "buckets": ["Contraire (in-, dé-)", "Répétition (re-)"],
+      "tokens": [
+        { "text": "refaire", "bucket": "Répétition (re-)" },
+        { "text": "impossible", "bucket": "Contraire (in-, dé-)" },
+        { "text": "défaire", "bucket": "Contraire (in-, dé-)" },
+        { "text": "relire", "bucket": "Répétition (re-)" },
+        { "text": "inutile", "bucket": "Contraire (in-, dé-)" },
+        { "text": "recommencer", "bucket": "Répétition (re-)" }
+      ]
+    },
+    {
+      "id": "voc-05",
+      "type": "qcm",
+      "skill": "sens-figure",
+      "question": "Que veut dire l'expression « avoir un chat dans la gorge » ?",
+      "choices": ["Être enroué", "Avoir faim", "Avoir peur des chats"],
+      "answer": 0,
+      "explanation": "C'est une expression au sens figuré : la voix est rauque."
+    },
+    {
+      "id": "voc-06",
+      "type": "qcm",
+      "skill": "sens-contexte",
+      "question": "Dans « Le vent souffle fort sur le fleuve », que signifie « souffle » ?",
+      "choices": ["Il respire", "Il éteint une bougie", "Il vente"],
+      "answer": 2,
+      "explanation": "Le sens d'un mot dépend du contexte de la phrase."
+    },
+    {
+      "id": "voc-07",
+      "type": "texteATrous",
+      "skill": "synonyme",
+      "prompt": "Trouve un synonyme de « fatigué » qui commence par « épu » : ___",
+      "answers": ["épuisé", "epuise"],
+      "explanation": "épuisé = très fatigué."
+    },
+    {
+      "id": "voc-08",
+      "type": "classement",
+      "skill": "classe-mots",
+      "instruction": "Classe ces mots selon leur classe.",
+      "buckets": ["Nom", "Verbe", "Adjectif"],
+      "tokens": [
+        { "text": "montagne", "bucket": "Nom" },
+        { "text": "courir", "bucket": "Verbe" },
+        { "text": "brillant", "bucket": "Adjectif" },
+        { "text": "chanter", "bucket": "Verbe" },
+        { "text": "orage", "bucket": "Nom" },
+        { "text": "gourmand", "bucket": "Adjectif" }
+      ]
+    },
+    {
+      "id": "voc-09",
+      "type": "ordre",
+      "skill": "ordre-alphabetique",
+      "instruction": "Place ces mots en ordre alphabétique.",
+      "sequence": ["banane", "bateau", "bâton", "bureau"],
+      "explanation": "Pour chercher dans le dictionnaire, on compare lettre par lettre."
+    },
+    {
+      "id": "voc-10",
+      "type": "qcm",
+      "skill": "quebecisme",
+      "question": "Au Québec, une « tuque » est…",
+      "choices": ["un bonnet d'hiver", "une botte", "un manteau"],
+      "answer": 0,
+      "explanation": "La tuque est le bonnet de laine qu'on porte l'hiver."
+    }
+  ]
+}

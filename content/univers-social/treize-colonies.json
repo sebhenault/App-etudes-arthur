@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "id": "us-treize-colonies-01",
+  "title": "Les Treize colonies vers 1745",
+  "subject": "univers-social",
+  "topic": "treize-colonies",
+  "grade": 4,
+  "difficulty": 2,
+  "estimatedMinutes": 5,
+  "source": "PFEQ – Géographie, histoire et éducation à la citoyenneté, 2e cycle",
+  "description": "Comparaison entre la société des Treize colonies et celle de la Nouvelle-France vers 1745.",
+  "tags": ["histoire", "Treize colonies", "comparaison"],
+  "defaultEnabled": false,
+  "items": [
+    {
+      "id": "tc-01",
+      "type": "qcm",
+      "skill": "territoire",
+      "question": "Où étaient situées les Treize colonies ?",
+      "choices": [
+        "Sur la côte est de l'Amérique du Nord, au sud de la Nouvelle-France",
+        "Au nord de la baie d'Hudson",
+        "En Amérique du Sud"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "tc-02",
+      "type": "qcm",
+      "skill": "population",
+      "question": "Vers 1745, la population des Treize colonies était…",
+      "choices": [
+        "beaucoup plus nombreuse que celle de la Nouvelle-France",
+        "à peu près égale à celle de la Nouvelle-France",
+        "beaucoup moins nombreuse"
+      ],
+      "answer": 0,
+      "explanation": "Environ 1 million d'habitants contre environ 55 000 en Nouvelle-France."
+    },
+    {
+      "id": "tc-03",
+      "type": "qcm",
+      "skill": "metropole",
+      "question": "Quel pays dirigeait les Treize colonies ?",
+      "choices": ["L'Angleterre", "La France", "L'Espagne"],
+      "answer": 0
+    },
+    {
+      "id": "tc-04",
+      "type": "classement",
+      "skill": "comparaison",
+      "instruction": "Classe chaque caractéristique dans la bonne société.",
+      "buckets": ["Nouvelle-France", "Treize colonies"],
+      "tokens": [
+        { "text": "Métropole : la France", "bucket": "Nouvelle-France" },
+        { "text": "Métropole : l'Angleterre", "bucket": "Treize colonies" },
+        { "text": "Régime seigneurial", "bucket": "Nouvelle-France" },
+        { "text": "Environ 1 000 000 d'habitants", "bucket": "Treize colonies" },
+        { "text": "Commerce des fourrures très important", "bucket": "Nouvelle-France" },
+        { "text": "Industries et commerce maritime développés", "bucket": "Treize colonies" }
+      ]
+    },
+    {
+      "id": "tc-05",
+      "type": "vraiFaux",
+      "skill": "climat",
+      "statement": "Le climat des Treize colonies du Sud était plus doux que celui de la vallée du Saint-Laurent.",
+      "answer": true,
+      "explanation": "Ce climat permettait des cultures comme le tabac, le riz et le coton."
+    },
+    {
+      "id": "tc-06",
+      "type": "association",
+      "skill": "economie",
+      "instruction": "Associe chaque région à son activité principale.",
+      "pairs": [
+        { "left": "Colonies du Nord", "right": "Pêche, construction navale et commerce" },
+        { "left": "Colonies du Centre", "right": "Culture des céréales" },
+        { "left": "Colonies du Sud", "right": "Grandes plantations de tabac et de coton" },
+        { "left": "Nouvelle-France", "right": "Fourrures et agriculture de subsistance" }
+      ]
+    }
+  ]
+}

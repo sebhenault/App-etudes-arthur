@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "description": "Médailles et succès. Ajouter une médaille = ajouter un objet ici, aucun code à modifier. Les métriques disponibles sont documentées dans docs/FORMAT-CONTENU.md.",
+  "achievements": [
+    {
+      "id": "premier-pas",
+      "label": "Premier pas",
+      "emoji": "👣",
+      "description": "Termine ta première partie.",
+      "metric": "sessions",
+      "target": 1,
+      "tier": "bronze"
+    },
+    {
+      "id": "sans-faute",
+      "label": "Sans faute !",
+      "emoji": "🎯",
+      "description": "Réussis une partie complète sans aucune erreur.",
+      "metric": "perfectSessions",
+      "target": 1,
+      "tier": "argent"
+    },
+    {
+      "id": "serie-3",
+      "label": "Trois jours de suite",
+      "emoji": "🔥",
+      "description": "Joue 3 jours d'affilée.",
+      "metric": "streakDays",
+      "target": 3,
+      "tier": "bronze"
+    },
+    {
+      "id": "serie-7",
+      "label": "Une semaine complète",
+      "emoji": "🗓️",
+      "description": "Joue 7 jours d'affilée.",
+      "metric": "streakDays",
+      "target": 7,
+      "tier": "or"
+    },
+    {
+      "id": "cent-bonnes",
+      "label": "Centurion",
+      "emoji": "💯",
+      "description": "Réussis 100 exercices.",
+      "metric": "totalCorrect",
+      "target": 100,
+      "tier": "argent"
+    },
+    {
+      "id": "cinq-cents-bonnes",
+      "label": "Maître des exercices",
+      "emoji": "🏆",
+      "description": "Réussis 500 exercices.",
+      "metric": "totalCorrect",
+      "target": 500,
+      "tier": "or"
+    },
+    {
+      "id": "mots-croises",
+      "label": "As du français",
+      "emoji": "📚",
+      "description": "Réussis 50 exercices de français.",
+      "metric": "subjectCorrect",
+      "scope": "francais",
+      "target": 50,
+      "tier": "argent"
+    },
+    {
+      "id": "calculateur",
+      "label": "As des maths",
+      "emoji": "🔢",
+      "description": "Réussis 50 exercices de mathématique.",
+      "metric": "subjectCorrect",
+      "scope": "mathematique",
+      "target": 50,
+      "tier": "argent"
+    },
+    {
+      "id": "explorateur",
+      "label": "Explorateur",
+      "emoji": "🗺️",
+      "description": "Réussis 20 exercices d'univers social.",
+      "metric": "subjectCorrect",
+      "scope": "univers-social",
+      "target": 20,
+      "tier": "bronze"
+    },
+    {
+      "id": "petit-savant",
+      "label": "Petit savant",
+      "emoji": "🔬",
+      "description": "Réussis 20 exercices de science.",
+      "metric": "subjectCorrect",
+      "scope": "science",
+      "target": 20,
+      "tier": "bronze"
+    },
+    {
+      "id": "bilingue",
+      "label": "Bilingue en herbe",
+      "emoji": "🇬🇧",
+      "description": "Réussis 20 exercices d'anglais.",
+      "metric": "subjectCorrect",
+      "scope": "anglais",
+      "target": 20,
+      "tier": "bronze"
+    },
+    {
+      "id": "eclair",
+      "label": "Éclair",
+      "emoji": "⚡",
+      "description": "Enchaîne 10 bonnes réponses d'affilée.",
+      "metric": "bestCombo",
+      "target": 10,
+      "tier": "argent"
+    },
+    {
+      "id": "niveau-5",
+      "label": "Niveau 5",
+      "emoji": "⭐",
+      "description": "Atteins le niveau 5.",
+      "metric": "level",
+      "target": 5,
+      "tier": "argent"
+    },
+    {
+      "id": "niveau-10",
+      "label": "Niveau 10",
+      "emoji": "🌟",
+      "description": "Atteins le niveau 10.",
+      "metric": "level",
+      "target": 10,
+      "tier": "or"
+    },
+    {
+      "id": "memoire",
+      "label": "Bonne mémoire",
+      "emoji": "🧠",
+      "description": "Maîtrise 30 notions grâce aux révisions.",
+      "metric": "masteredExercises",
+      "target": 30,
+      "tier": "or"
+    },
+    {
+      "id": "marathonien",
+      "label": "Marathonien",
+      "emoji": "🏃",
+      "description": "Joue 20 parties.",
+      "metric": "sessions",
+      "target": 20,
+      "tier": "argent"
+    }
+  ]
+}

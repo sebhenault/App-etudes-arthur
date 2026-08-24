@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "grade": 4,
+  "locale": "fr-CA",
+  "updatedAt": "2026-08-24",
+  "subjects": [
+    {
+      "key": "francais",
+      "label": "Français",
+      "emoji": "📚",
+      "color": "#5B7CFA",
+      "order": 1,
+      "topics": [
+        { "key": "accords", "label": "Les accords", "emoji": "🧩" },
+        { "key": "conjugaison", "label": "La conjugaison", "emoji": "⏳" },
+        { "key": "homophones", "label": "Les homophones", "emoji": "👯" },
+        { "key": "vocabulaire", "label": "Le vocabulaire", "emoji": "💬" },
+        { "key": "lecture", "label": "Compréhension de lecture", "emoji": "🔎" },
+        { "key": "ecriture", "label": "L'écriture", "emoji": "✏️" }
+      ]
+    },
+    {
+      "key": "mathematique",
+      "label": "Mathématique",
+      "emoji": "🔢",
+      "color": "#F2994A",
+      "order": 2,
+      "topics": [
+        { "key": "numeration", "label": "Les nombres", "emoji": "🧮" },
+        { "key": "multiplication", "label": "La multiplication", "emoji": "✖️" },
+        { "key": "division", "label": "La division", "emoji": "➗" },
+        { "key": "fractions", "label": "Les fractions", "emoji": "🍕" },
+        { "key": "problemes", "label": "Les problèmes", "emoji": "🕵️" },
+        { "key": "mesures", "label": "Les mesures", "emoji": "📏" },
+        { "key": "geometrie", "label": "La géométrie", "emoji": "📐" }
+      ]
+    },
+    {
+      "key": "univers-social",
+      "label": "Univers social",
+      "emoji": "🗺️",
+      "color": "#27AE60",
+      "order": 3,
+      "topics": [
+        { "key": "nouvelle-france", "label": "La Nouvelle-France vers 1745", "emoji": "⚜️" },
+        { "key": "treize-colonies", "label": "Les Treize colonies vers 1745", "emoji": "🏴" }
+      ]
+    },
+    {
+      "key": "science",
+      "label": "Science et technologie",
+      "emoji": "🔬",
+      "color": "#9B51E0",
+      "order": 4,
+      "topics": [
+        { "key": "matiere-energie", "label": "Matière et énergie", "emoji": "⚡" },
+        { "key": "vivant", "label": "Le monde vivant", "emoji": "🌱" }
+      ]
+    },
+    {
+      "key": "anglais",
+      "label": "Anglais",
+      "emoji": "🇬🇧",
+      "color": "#EB5757",
+      "order": 5,
+      "topics": [
+        { "key": "vocabulary", "label": "Vocabulary", "emoji": "🔤" },
+        { "key": "sentences", "label": "Sentences", "emoji": "🗣️" }
+      ]
+    }
+  ]
+}

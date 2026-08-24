@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "id": "sc-matiere-energie-01",
+  "title": "La matière et l'énergie",
+  "subject": "science",
+  "topic": "matiere-energie",
+  "grade": 4,
+  "difficulty": 1,
+  "estimatedMinutes": 5,
+  "source": "PFEQ – Science et technologie, 2e cycle (L'univers matériel)",
+  "description": "États de la matière, changements d'état, mélanges, forces et formes d'énergie.",
+  "tags": ["matière", "énergie", "états", "mélanges"],
+  "defaultEnabled": true,
+  "items": [
+    {
+      "id": "sci-01",
+      "type": "classement",
+      "skill": "etats-matiere",
+      "instruction": "Classe chaque substance selon son état à la température de la pièce.",
+      "buckets": ["Solide", "Liquide", "Gaz"],
+      "tokens": [
+        { "text": "Un glaçon", "bucket": "Solide" },
+        { "text": "De l'eau du robinet", "bucket": "Liquide" },
+        { "text": "L'air d'un ballon", "bucket": "Gaz" },
+        { "text": "Du sirop d'érable", "bucket": "Liquide" },
+        { "text": "Une roche", "bucket": "Solide" },
+        { "text": "La vapeur d'eau", "bucket": "Gaz" }
+      ]
+    },
+    {
+      "id": "sci-02",
+      "type": "association",
+      "skill": "changements-etat",
+      "instruction": "Associe chaque changement d'état à son nom.",
+      "pairs": [
+        { "left": "Le glaçon devient de l'eau", "right": "Fusion" },
+        { "left": "L'eau devient de la vapeur", "right": "Évaporation" },
+        { "left": "L'eau devient de la glace", "right": "Solidification" },
+        { "left": "La vapeur devient des gouttelettes", "right": "Condensation" }
+      ]
+    },
+    {
+      "id": "sci-03",
+      "type": "qcm",
+      "skill": "melanges",
+      "question": "Que se passe-t-il quand on mélange du sel et de l'eau ?",
+      "choices": [
+        "Le sel se dissout : le mélange est homogène",
+        "Le sel flotte à la surface",
+        "Le sel devient de l'huile"
+      ],
+      "answer": 0,
+      "explanation": "Un mélange homogène : on ne distingue plus les deux substances à l'œil nu."
+    },
+    {
+      "id": "sci-04",
+      "type": "vraiFaux",
+      "skill": "melanges",
+      "statement": "L'huile et l'eau forment un mélange hétérogène : on voit les deux liquides séparés.",
+      "answer": true
+    },
+    {
+      "id": "sci-05",
+      "type": "classement",
+      "skill": "formes-energie",
+      "instruction": "Classe ces exemples selon la forme d'énergie principale.",
+      "buckets": ["Énergie lumineuse", "Énergie thermique", "Énergie sonore"],
+      "tokens": [
+        { "text": "Une ampoule allumée", "bucket": "Énergie lumineuse" },
+        { "text": "Un radiateur chaud", "bucket": "Énergie thermique" },
+        { "text": "Un haut-parleur", "bucket": "Énergie sonore" },
+        { "text": "Le soleil", "bucket": "Énergie lumineuse" },
+        { "text": "Un feu de camp qui réchauffe", "bucket": "Énergie thermique" },
+        { "text": "Une guitare qu'on gratte", "bucket": "Énergie sonore" }
+      ]
+    },
+    {
+      "id": "sci-06",
+      "type": "qcm",
+      "skill": "aimants",
+      "question": "Quel objet est attiré par un aimant ?",
+      "choices": ["Un trombone en acier", "Une gomme à effacer", "Un verre"],
+      "answer": 0,
+      "explanation": "Les aimants attirent surtout les objets contenant du fer, du nickel ou du cobalt."
+    },
+    {
+      "id": "sci-07",
+      "type": "qcm",
+      "skill": "electricite",
+      "question": "Pour qu'une ampoule s'allume dans un circuit, il faut…",
+      "choices": [
+        "un circuit fermé et complet",
+        "un circuit ouvert",
+        "aucune pile"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sci-08",
+      "type": "qcm",
+      "skill": "proprietes-matiere",
+      "question": "Quelle propriété permet de savoir si un objet va flotter ?",
+      "choices": ["Sa couleur", "Sa flottabilité", "Son odeur"],
+      "answer": 1
+    }
+  ]
+}

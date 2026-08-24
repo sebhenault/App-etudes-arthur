@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "id": "ma-fractions-01",
+  "title": "Les fractions",
+  "subject": "mathematique",
+  "topic": "fractions",
+  "grade": 4,
+  "difficulty": 2,
+  "estimatedMinutes": 6,
+  "source": "PFEQ – Sens des fractions (2e cycle) · Cahier Terminus 4e",
+  "description": "Lire, représenter, comparer et additionner des fractions ayant le même dénominateur.",
+  "tags": ["fractions", "numérateur", "dénominateur", "comparaison"],
+  "defaultEnabled": true,
+  "items": [
+    {
+      "id": "fra-01",
+      "type": "qcm",
+      "skill": "lire-fraction",
+      "question": "Dans la fraction 3/8, que représente le 8 ?",
+      "choices": [
+        "Le nombre de parties prises",
+        "Le nombre total de parties égales",
+        "La différence entre les parties"
+      ],
+      "answer": 1,
+      "explanation": "Le dénominateur (en bas) indique en combien de parties égales le tout est partagé."
+    },
+    {
+      "id": "fra-02",
+      "type": "qcm",
+      "skill": "representer-fraction",
+      "question": "Une pizza est coupée en 6 pointes égales. Arthur en mange 2. Quelle fraction a-t-il mangée ?",
+      "choices": ["2/6", "6/2", "2/4"],
+      "answer": 0,
+      "explanation": "2 parties prises sur 6 parties égales = 2/6 (ou 1/3)."
+    },
+    {
+      "id": "fra-03",
+      "type": "qcm",
+      "skill": "comparer-fractions",
+      "question": "Quelle fraction est la plus grande ?",
+      "choices": ["3/5", "2/5", "1/5"],
+      "answer": 0,
+      "explanation": "Avec le même dénominateur, la plus grande fraction est celle qui a le plus grand numérateur."
+    },
+    {
+      "id": "fra-04",
+      "type": "qcm",
+      "skill": "comparer-fractions",
+      "question": "Quelle fraction est la plus grande : 1/3 ou 1/8 ?",
+      "choices": ["1/3", "1/8", "Elles sont égales"],
+      "answer": 0,
+      "explanation": "Plus on partage en petits morceaux, plus chaque morceau est petit : 1/3 > 1/8."
+    },
+    {
+      "id": "fra-05",
+      "type": "ordre",
+      "skill": "ordonner-fractions",
+      "instruction": "Place ces fractions de la plus petite à la plus grande.",
+      "sequence": ["1/8", "3/8", "5/8", "7/8"]
+    },
+    {
+      "id": "fra-06",
+      "type": "association",
+      "skill": "fractions-equivalentes",
+      "instruction": "Associe chaque fraction à une fraction équivalente.",
+      "pairs": [
+        { "left": "1/2", "right": "4/8" },
+        { "left": "1/3", "right": "2/6" },
+        { "left": "3/4", "right": "6/8" },
+        { "left": "2/5", "right": "4/10" }
+      ]
+    },
+    {
+      "id": "fra-07",
+      "type": "texteATrous",
+      "skill": "addition-fractions",
+      "prompt": "2/7 + 3/7 = ___",
+      "answers": ["5/7"],
+      "explanation": "Même dénominateur : on additionne seulement les numérateurs."
+    },
+    {
+      "id": "fra-08",
+      "type": "calcul",
+      "skill": "fraction-quantite",
+      "question": "Quelle est la moitié (1/2) de 24 ?",
+      "answer": 12
+    },
+    {
+      "id": "fra-09",
+      "type": "calcul",
+      "skill": "fraction-quantite",
+      "question": "Quel est le quart (1/4) de 20 ?",
+      "answer": 5,
+      "explanation": "20 ÷ 4 = 5."
+    },
+    {
+      "id": "fra-10",
+      "type": "vraiFaux",
+      "skill": "fraction-unite",
+      "statement": "4/4 représente le tout, c'est-à-dire 1 entier.",
+      "answer": true,
+      "explanation": "Quand le numérateur égale le dénominateur, la fraction vaut 1."
+    },
+    {
+      "id": "fra-11",
+      "type": "classement",
+      "skill": "comparer-demi",
+      "instruction": "Classe ces fractions par rapport à 1/2.",
+      "buckets": ["Plus petit que 1/2", "Plus grand que 1/2"],
+      "tokens": [
+        { "text": "1/4", "bucket": "Plus petit que 1/2" },
+        { "text": "3/4", "bucket": "Plus grand que 1/2" },
+        { "text": "2/8", "bucket": "Plus petit que 1/2" },
+        { "text": "5/6", "bucket": "Plus grand que 1/2" },
+        { "text": "1/10", "bucket": "Plus petit que 1/2" },
+        { "text": "7/10", "bucket": "Plus grand que 1/2" }
+      ]
+    }
+  ]
+}

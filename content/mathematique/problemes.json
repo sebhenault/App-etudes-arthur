@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "id": "ma-problemes-01",
+  "title": "Les problèmes écrits",
+  "subject": "mathematique",
+  "topic": "problemes",
+  "grade": 4,
+  "difficulty": 3,
+  "estimatedMinutes": 8,
+  "source": "PFEQ – Résoudre une situation-problème mathématique (2e cycle)",
+  "description": "Problèmes à une et deux étapes tirés de la vie quotidienne au Québec.",
+  "tags": ["problèmes", "raisonnement", "démarche"],
+  "defaultEnabled": true,
+  "items": [
+    {
+      "id": "pro-01",
+      "type": "calcul",
+      "skill": "probleme-1-etape",
+      "question": "Arthur a 145 cartes de hockey. Il en donne 28 à son ami. Combien lui en reste-t-il ?",
+      "answer": 117,
+      "unit": "cartes"
+    },
+    {
+      "id": "pro-02",
+      "type": "calcul",
+      "skill": "probleme-2-etapes",
+      "question": "Une boîte contient 24 crayons. L'enseignante achète 5 boîtes et en distribue 30. Combien de crayons reste-t-il ?",
+      "answer": 90,
+      "unit": "crayons",
+      "explanation": "5 × 24 = 120, puis 120 − 30 = 90."
+    },
+    {
+      "id": "pro-03",
+      "type": "calcul",
+      "skill": "probleme-argent",
+      "question": "Un billet de cinéma coûte 9 $. Combien coûtent 4 billets ?",
+      "answer": 36,
+      "unit": "$"
+    },
+    {
+      "id": "pro-04",
+      "type": "calcul",
+      "skill": "probleme-argent",
+      "question": "Zoé a 50 $. Elle achète un livre à 18 $ et un jeu à 22 $. Combien lui reste-t-il ?",
+      "answer": 10,
+      "unit": "$",
+      "explanation": "18 + 22 = 40, puis 50 − 40 = 10."
+    },
+    {
+      "id": "pro-05",
+      "type": "qcm",
+      "skill": "choisir-operation",
+      "question": "« On partage 60 bonbons entre 5 enfants. » Quelle opération faut-il faire ?",
+      "choices": ["60 × 5", "60 ÷ 5", "60 − 5"],
+      "answer": 1,
+      "explanation": "Partager également, c'est diviser."
+    },
+    {
+      "id": "pro-06",
+      "type": "calcul",
+      "skill": "probleme-2-etapes",
+      "question": "Un autobus scolaire fait 3 voyages. À chaque voyage, il transporte 42 élèves. Combien d'élèves a-t-il transportés en tout ?",
+      "answer": 126,
+      "unit": "élèves"
+    },
+    {
+      "id": "pro-07",
+      "type": "ordre",
+      "skill": "demarche-resolution",
+      "instruction": "Remets les étapes d'une bonne démarche en ordre.",
+      "sequence": [
+        "Je lis le problème au complet",
+        "Je repère les données utiles",
+        "Je choisis mon opération",
+        "Je calcule",
+        "Je vérifie et j'écris ma phrase-réponse"
+      ]
+    },
+    {
+      "id": "pro-08",
+      "type": "calcul",
+      "skill": "probleme-mesure",
+      "question": "Un jardin rectangulaire mesure 15 m de long et 8 m de large. Quelle longueur de clôture faut-il pour en faire le tour ?",
+      "answer": 46,
+      "unit": "m",
+      "explanation": "Périmètre = (15 + 8) × 2 = 46 m."
+    },
+    {
+      "id": "pro-09",
+      "type": "calcul",
+      "skill": "probleme-temps",
+      "question": "La partie de hockey commence à 18 h 30 et dure 90 minutes. À quelle heure se termine-t-elle ? Réponds avec les minutes après 19 h (ex. : 20 h 00 → 60).",
+      "answer": 60,
+      "unit": "minutes après 19 h",
+      "explanation": "18 h 30 + 90 min = 20 h 00, soit 60 minutes après 19 h."
+    },
+    {
+      "id": "pro-10",
+      "type": "qcm",
+      "skill": "estimation",
+      "question": "Estime rapidement : 198 + 302 est environ…",
+      "choices": ["300", "500", "700"],
+      "answer": 1,
+      "explanation": "On arrondit : 200 + 300 = 500."
+    }
+  ]
+}

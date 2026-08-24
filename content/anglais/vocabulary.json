@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "id": "en-vocabulary-01",
+  "title": "English vocabulary",
+  "subject": "anglais",
+  "topic": "vocabulary",
+  "grade": 4,
+  "difficulty": 1,
+  "estimatedMinutes": 5,
+  "source": "PFEQ – Anglais, langue seconde (2e cycle)",
+  "description": "Mots de base : école, famille, couleurs, nombres, animaux et jours de la semaine.",
+  "tags": ["english", "vocabulary", "anglais"],
+  "defaultEnabled": true,
+  "items": [
+    {
+      "id": "env-01",
+      "type": "association",
+      "skill": "vocab-school",
+      "instruction": "Match each English word with its French translation.",
+      "pairs": [
+        { "left": "pencil", "right": "crayon" },
+        { "left": "book", "right": "livre" },
+        { "left": "teacher", "right": "enseignant" },
+        { "left": "backpack", "right": "sac à dos" }
+      ]
+    },
+    {
+      "id": "env-02",
+      "type": "association",
+      "skill": "vocab-family",
+      "instruction": "Match each English word with its French translation.",
+      "pairs": [
+        { "left": "brother", "right": "frère" },
+        { "left": "sister", "right": "sœur" },
+        { "left": "grandmother", "right": "grand-mère" },
+        { "left": "cousin", "right": "cousin" }
+      ]
+    },
+    {
+      "id": "env-03",
+      "type": "qcm",
+      "skill": "vocab-colours",
+      "question": "What colour is the snow?",
+      "choices": ["White", "Green", "Purple"],
+      "answer": 0
+    },
+    {
+      "id": "env-04",
+      "type": "classement",
+      "skill": "vocab-categories",
+      "instruction": "Put each word in the right category.",
+      "buckets": ["Animals", "Food"],
+      "tokens": [
+        { "text": "dog", "bucket": "Animals" },
+        { "text": "apple", "bucket": "Food" },
+        { "text": "beaver", "bucket": "Animals" },
+        { "text": "bread", "bucket": "Food" },
+        { "text": "moose", "bucket": "Animals" },
+        { "text": "cheese", "bucket": "Food" }
+      ]
+    },
+    {
+      "id": "env-05",
+      "type": "ordre",
+      "skill": "vocab-days",
+      "instruction": "Put the days of the week in order.",
+      "sequence": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
+    },
+    {
+      "id": "env-06",
+      "type": "texteATrous",
+      "skill": "vocab-numbers",
+      "prompt": "Ten + five = ___ (write the number in English)",
+      "answers": ["fifteen"],
+      "explanation": "10 + 5 = 15 = fifteen."
+    },
+    {
+      "id": "env-07",
+      "type": "qcm",
+      "skill": "vocab-weather",
+      "question": "In January in Quebec, the weather is usually…",
+      "choices": ["hot", "cold and snowy", "rainy and warm"],
+      "answer": 1
+    },
+    {
+      "id": "env-08",
+      "type": "association",
+      "skill": "vocab-verbs",
+      "instruction": "Match each verb with its meaning.",
+      "pairs": [
+        { "left": "to run", "right": "courir" },
+        { "left": "to eat", "right": "manger" },
+        { "left": "to read", "right": "lire" },
+        { "left": "to sleep", "right": "dormir" }
+      ]
+    }
+  ]
+}

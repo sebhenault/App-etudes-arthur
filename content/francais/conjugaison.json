@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "id": "fr-conjugaison-01",
+  "title": "La conjugaison des verbes fréquents",
+  "subject": "francais",
+  "topic": "conjugaison",
+  "grade": 4,
+  "difficulty": 2,
+  "estimatedMinutes": 6,
+  "source": "PFEQ – Progression des apprentissages, français 2e cycle · Cahier Matcha 4e",
+  "description": "Présent, imparfait, futur simple et passé composé de l'indicatif avec les verbes les plus utilisés.",
+  "tags": ["conjugaison", "présent", "imparfait", "futur", "passé composé"],
+  "defaultEnabled": true,
+  "items": [
+    {
+      "id": "conj-01",
+      "type": "texteATrous",
+      "skill": "present-etre-avoir",
+      "prompt": "Tu ___ (être, présent) mon meilleur ami.",
+      "answers": ["es"],
+      "explanation": "Verbe être au présent : je suis, tu es, il est, nous sommes, vous êtes, ils sont."
+    },
+    {
+      "id": "conj-02",
+      "type": "texteATrous",
+      "skill": "present-etre-avoir",
+      "prompt": "Nous ___ (avoir, présent) une belle surprise.",
+      "answers": ["avons"],
+      "explanation": "Verbe avoir au présent : j'ai, tu as, il a, nous avons, vous avez, ils ont."
+    },
+    {
+      "id": "conj-03",
+      "type": "texteATrous",
+      "skill": "present-1er-groupe",
+      "prompt": "Vous ___ (chanter, présent) très bien.",
+      "answers": ["chantez"],
+      "explanation": "Verbes en -er au présent : -e, -es, -e, -ons, -ez, -ent."
+    },
+    {
+      "id": "conj-04",
+      "type": "texteATrous",
+      "skill": "imparfait",
+      "prompt": "Quand j'étais petit, je ___ (jouer, imparfait) dehors tous les jours.",
+      "answers": ["jouais"],
+      "explanation": "Imparfait : -ais, -ais, -ait, -ions, -iez, -aient."
+    },
+    {
+      "id": "conj-05",
+      "type": "texteATrous",
+      "skill": "imparfait",
+      "prompt": "Ils ___ (finir, imparfait) toujours leurs devoirs avant le souper.",
+      "answers": ["finissaient"],
+      "explanation": "Verbes en -ir comme finir : radical « finiss- » à l'imparfait."
+    },
+    {
+      "id": "conj-06",
+      "type": "texteATrous",
+      "skill": "futur-simple",
+      "prompt": "Demain, nous ___ (aller, futur simple) à la bibliothèque.",
+      "answers": ["irons"],
+      "explanation": "Aller au futur simple : j'irai, tu iras, il ira, nous irons, vous irez, ils iront."
+    },
+    {
+      "id": "conj-07",
+      "type": "texteATrous",
+      "skill": "futur-simple",
+      "prompt": "Tu ___ (faire, futur simple) tes exercices ce soir.",
+      "answers": ["feras"],
+      "explanation": "Faire au futur simple : je ferai, tu feras, il fera, nous ferons, vous ferez, ils feront."
+    },
+    {
+      "id": "conj-08",
+      "type": "texteATrous",
+      "skill": "passe-compose",
+      "prompt": "Elle ___ ___ (partir, passé composé) très tôt ce matin.",
+      "answers": ["est partie"],
+      "explanation": "Avec l'auxiliaire être, le participe passé s'accorde avec le sujet : elle est partie."
+    },
+    {
+      "id": "conj-09",
+      "type": "qcm",
+      "skill": "passe-compose",
+      "question": "Quelle phrase est au passé composé ?",
+      "choices": [
+        "Nous mangions une pomme.",
+        "Nous avons mangé une pomme.",
+        "Nous mangerons une pomme."
+      ],
+      "answer": 1,
+      "explanation": "Le passé composé se forme avec avoir ou être au présent + le participe passé."
+    },
+    {
+      "id": "conj-10",
+      "type": "association",
+      "skill": "reconnaitre-temps",
+      "instruction": "Associe chaque phrase au temps du verbe.",
+      "pairs": [
+        { "left": "Je marchais dans la neige.", "right": "Imparfait" },
+        { "left": "Je marcherai dans la neige.", "right": "Futur simple" },
+        { "left": "Je marche dans la neige.", "right": "Présent" },
+        { "left": "J'ai marché dans la neige.", "right": "Passé composé" }
+      ]
+    },
+    {
+      "id": "conj-11",
+      "type": "classement",
+      "skill": "reconnaitre-temps",
+      "instruction": "Classe ces verbes selon leur temps.",
+      "buckets": ["Présent", "Futur simple"],
+      "tokens": [
+        { "text": "nous prenons", "bucket": "Présent" },
+        { "text": "vous serez", "bucket": "Futur simple" },
+        { "text": "elles vont", "bucket": "Présent" },
+        { "text": "tu auras", "bucket": "Futur simple" },
+        { "text": "je dis", "bucket": "Présent" },
+        { "text": "il viendra", "bucket": "Futur simple" }
+      ]
+    },
+    {
+      "id": "conj-12",
+      "type": "texteATrous",
+      "skill": "present-3e-groupe",
+      "prompt": "Elles ___ (venir, présent) souper chez nous.",
+      "answers": ["viennent"],
+      "explanation": "Venir au présent : je viens, tu viens, il vient, nous venons, vous venez, ils viennent."
+    },
+    {
+      "id": "conj-13",
+      "type": "vraiFaux",
+      "skill": "infinitif",
+      "statement": "Dans la phrase « Arthur veut patiner », le verbe « patiner » est à l'infinitif.",
+      "answer": true,
+      "explanation": "Après un autre verbe conjugué, le deuxième verbe reste à l'infinitif."
+    },
+    {
+      "id": "conj-14",
+      "type": "texteATrous",
+      "skill": "present-1er-groupe",
+      "prompt": "Nous ___ (commencer, présent) le projet aujourd'hui.",
+      "answers": ["commençons"],
+      "hint": "Attention à la cédille devant le o !",
+      "explanation": "Le c devient ç devant a et o pour garder le son [s] : nous commençons."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "id": "en-sentences-01",
+  "title": "English sentences",
+  "subject": "anglais",
+  "topic": "sentences",
+  "grade": 4,
+  "difficulty": 2,
+  "estimatedMinutes": 5,
+  "source": "PFEQ – Anglais, langue seconde (2e cycle)",
+  "description": "Phrases simples : salutations, présentations, questions courantes.",
+  "tags": ["english", "sentences", "greetings"],
+  "defaultEnabled": false,
+  "items": [
+    {
+      "id": "ens-01",
+      "type": "qcm",
+      "skill": "greetings",
+      "question": "How do you answer: « How are you? »",
+      "choices": ["I am fine, thank you.", "My name is blue.", "It is a pencil."],
+      "answer": 0
+    },
+    {
+      "id": "ens-02",
+      "type": "ordre",
+      "skill": "word-order",
+      "instruction": "Put the words in the right order.",
+      "sequence": ["My", "name", "is", "Arthur"]
+    },
+    {
+      "id": "ens-03",
+      "type": "ordre",
+      "skill": "word-order",
+      "instruction": "Put the words in the right order.",
+      "sequence": ["I", "like", "to", "play", "hockey"]
+    },
+    {
+      "id": "ens-04",
+      "type": "texteATrous",
+      "skill": "verb-to-be",
+      "prompt": "She ___ my sister. (verb to be)",
+      "answers": ["is"],
+      "explanation": "I am, you are, he/she/it is, we are, they are."
+    },
+    {
+      "id": "ens-05",
+      "type": "texteATrous",
+      "skill": "verb-to-be",
+      "prompt": "They ___ in the classroom. (verb to be)",
+      "answers": ["are"]
+    },
+    {
+      "id": "ens-06",
+      "type": "association",
+      "skill": "questions",
+      "instruction": "Match each question with its answer.",
+      "pairs": [
+        { "left": "What is your name?", "right": "My name is Arthur." },
+        { "left": "How old are you?", "right": "I am nine years old." },
+        { "left": "Where do you live?", "right": "I live in Quebec." },
+        { "left": "What time is it?", "right": "It is three o'clock." }
+      ]
+    },
+    {
+      "id": "ens-07",
+      "type": "vraiFaux",
+      "skill": "greetings",
+      "statement": "« Good night » is used when you meet someone in the morning.",
+      "answer": false,
+      "explanation": "« Good night » is used when you go to bed. In the morning, say « Good morning »."
+    }
+  ]
+}

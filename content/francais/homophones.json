@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "fr-homophones-01",
+  "title": "Les homophones à ne pas confondre",
+  "subject": "francais",
+  "topic": "homophones",
+  "grade": 4,
+  "difficulty": 2,
+  "estimatedMinutes": 5,
+  "source": "PFEQ – Lexique et orthographe d'usage · Alloprof 4e année",
+  "description": "a / à, ont / on, son / sont, ce / se, mes / mais, ces / ses.",
+  "tags": ["homophones", "orthographe"],
+  "defaultEnabled": true,
+  "items": [
+    {
+      "id": "hom-01",
+      "type": "qcm",
+      "skill": "homophone-a",
+      "question": "Choisis la bonne phrase.",
+      "choices": ["Arthur a froid à la maison.", "Arthur à froid a la maison.", "Arthur a froid a la maison."],
+      "answer": 0,
+      "explanation": "« a » est le verbe avoir (on peut dire « avait »). « à » est une préposition."
+    },
+    {
+      "id": "hom-02",
+      "type": "texteATrous",
+      "skill": "homophone-a",
+      "prompt": "Ma sœur ___ terminé ses devoirs.",
+      "answers": ["a"],
+      "hint": "Remplace par « avait ».",
+      "explanation": "« avait terminé » fonctionne, donc on écrit « a »."
+    },
+    {
+      "id": "hom-03",
+      "type": "texteATrous",
+      "skill": "homophone-ont-on",
+      "prompt": "Les enfants ___ trouvé un trésor.",
+      "answers": ["ont"],
+      "hint": "Remplace par « avaient ».",
+      "explanation": "« ont » = verbe avoir au pluriel. « on » = pronom, remplaçable par « il »."
+    },
+    {
+      "id": "hom-04",
+      "type": "texteATrous",
+      "skill": "homophone-ont-on",
+      "prompt": "Ce soir, ___ regarde un film en famille.",
+      "answers": ["on"],
+      "hint": "Remplace par « il ».",
+      "explanation": "« il regarde » fonctionne, donc on écrit « on »."
+    },
+    {
+      "id": "hom-05",
+      "type": "texteATrous",
+      "skill": "homophone-son-sont",
+      "prompt": "Mes amis ___ arrivés en retard.",
+      "answers": ["sont"],
+      "hint": "Remplace par « étaient ».",
+      "explanation": "« sont » = verbe être. « son » = déterminant (son chien)."
+    },
+    {
+      "id": "hom-06",
+      "type": "texteATrous",
+      "skill": "homophone-son-sont",
+      "prompt": "Arthur a oublié ___ sac à dos.",
+      "answers": ["son"],
+      "explanation": "On peut dire « mon sac à dos », donc c'est le déterminant « son »."
+    },
+    {
+      "id": "hom-07",
+      "type": "classement",
+      "skill": "homophone-ces-ses",
+      "instruction": "Classe chaque phrase selon le mot manquant.",
+      "buckets": ["ces", "ses"],
+      "tokens": [
+        { "text": "Regarde ___ montagnes au loin !", "bucket": "ces" },
+        { "text": "Léa range ___ crayons dans son étui.", "bucket": "ses" },
+        { "text": "___ biscuits-là sont délicieux.", "bucket": "ces" },
+        { "text": "Il a perdu ___ mitaines.", "bucket": "ses" }
+      ],
+      "explanation": "« ses » = les siens (à lui, à elle). « ces » = ceux-là (on peut ajouter -là)."
+    },
+    {
+      "id": "hom-08",
+      "type": "qcm",
+      "skill": "homophone-ce-se",
+      "question": "Quelle phrase est correcte ?",
+      "choices": ["Ce matin, il se lève tôt.", "Se matin, il ce lève tôt.", "Ce matin, il ce lève tôt."],
+      "answer": 0,
+      "explanation": "« ce » accompagne un nom ; « se » accompagne un verbe pronominal (se lever)."
+    },
+    {
+      "id": "hom-09",
+      "type": "texteATrous",
+      "skill": "homophone-mes-mais",
+      "prompt": "J'ai apporté ___ raquettes, ___ il ne neige plus.",
+      "answers": ["mes, mais", "mes mais"],
+      "explanation": "« mes » = déterminant pluriel ; « mais » exprime l'opposition."
+    },
+    {
+      "id": "hom-10",
+      "type": "association",
+      "skill": "homophone-truc",
+      "instruction": "Associe chaque homophone à son truc de vérification.",
+      "pairs": [
+        { "left": "a", "right": "se remplace par « avait »" },
+        { "left": "on", "right": "se remplace par « il »" },
+        { "left": "sont", "right": "se remplace par « étaient »" },
+        { "left": "ses", "right": "se remplace par « les siens »" }
+      ]
+    }
+  ]
+}

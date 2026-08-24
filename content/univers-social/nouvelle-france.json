@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "id": "us-nouvelle-france-01",
+  "title": "La société canadienne en Nouvelle-France vers 1745",
+  "subject": "univers-social",
+  "topic": "nouvelle-france",
+  "grade": 4,
+  "difficulty": 2,
+  "estimatedMinutes": 6,
+  "source": "PFEQ – Géographie, histoire et éducation à la citoyenneté, 2e cycle",
+  "description": "Territoire, population, métiers, seigneuries et vie quotidienne en Nouvelle-France vers 1745.",
+  "tags": ["histoire", "Nouvelle-France", "1745", "seigneurie"],
+  "defaultEnabled": true,
+  "items": [
+    {
+      "id": "nf-01",
+      "type": "qcm",
+      "skill": "territoire",
+      "question": "Le long de quel cours d'eau la population de la Nouvelle-France s'installait-elle surtout ?",
+      "choices": ["Le fleuve Saint-Laurent", "La rivière Rouge", "Le fleuve Mississippi"],
+      "answer": 0,
+      "explanation": "Le fleuve Saint-Laurent servait de route principale pour se déplacer et transporter les marchandises."
+    },
+    {
+      "id": "nf-02",
+      "type": "qcm",
+      "skill": "villes",
+      "question": "Quelles étaient les trois principales villes de la Nouvelle-France vers 1745 ?",
+      "choices": [
+        "Québec, Trois-Rivières et Montréal",
+        "Québec, Sherbrooke et Gatineau",
+        "Montréal, Laval et Longueuil"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "nf-03",
+      "type": "qcm",
+      "skill": "seigneurie",
+      "question": "Comment étaient découpées les terres dans le régime seigneurial ?",
+      "choices": [
+        "En longues bandes étroites perpendiculaires au fleuve",
+        "En grands carrés égaux",
+        "En cercles autour de l'église"
+      ],
+      "answer": 0,
+      "explanation": "Ces terres allongées donnaient à chaque censitaire un accès au fleuve."
+    },
+    {
+      "id": "nf-04",
+      "type": "association",
+      "skill": "roles-sociaux",
+      "instruction": "Associe chaque personne à son rôle.",
+      "pairs": [
+        { "left": "Le seigneur", "right": "Distribue les terres et perçoit des redevances" },
+        { "left": "Le censitaire (habitant)", "right": "Cultive la terre qu'il a reçue" },
+        { "left": "Le coureur des bois", "right": "Fait le commerce des fourrures" },
+        { "left": "L'intendant", "right": "S'occupe de l'administration de la colonie" }
+      ]
+    },
+    {
+      "id": "nf-05",
+      "type": "vraiFaux",
+      "skill": "economie",
+      "statement": "Le commerce des fourrures, surtout celle du castor, était très important en Nouvelle-France.",
+      "answer": true,
+      "explanation": "Les chapeaux de feutre de castor étaient à la mode en Europe."
+    },
+    {
+      "id": "nf-06",
+      "type": "classement",
+      "skill": "vie-quotidienne",
+      "instruction": "Classe ces éléments de la vie vers 1745.",
+      "buckets": ["Présent en 1745", "Absent en 1745"],
+      "tokens": [
+        { "text": "Le poêle à bois", "bucket": "Présent en 1745" },
+        { "text": "L'électricité", "bucket": "Absent en 1745" },
+        { "text": "La charrette tirée par un cheval", "bucket": "Présent en 1745" },
+        { "text": "L'automobile", "bucket": "Absent en 1745" },
+        { "text": "Le moulin à farine", "bucket": "Présent en 1745" },
+        { "text": "Le téléphone", "bucket": "Absent en 1745" }
+      ]
+    },
+    {
+      "id": "nf-07",
+      "type": "qcm",
+      "skill": "population",
+      "question": "Environ combien d'habitants comptait la vallée du Saint-Laurent vers 1745 ?",
+      "choices": ["Environ 5 000", "Environ 55 000", "Environ 500 000"],
+      "answer": 1,
+      "explanation": "La population de la colonie était d'environ 55 000 habitants vers 1745."
+    },
+    {
+      "id": "nf-08",
+      "type": "qcm",
+      "skill": "climat",
+      "question": "Quelle réalité du territoire influençait le plus la vie des habitants ?",
+      "choices": [
+        "Les longs hivers froids et enneigés",
+        "Les tremblements de terre quotidiens",
+        "Les saisons sèches sans pluie"
+      ],
+      "answer": 0,
+      "explanation": "L'hiver obligeait à conserver la nourriture et à chauffer les maisons plusieurs mois."
+    },
+    {
+      "id": "nf-09",
+      "type": "association",
+      "skill": "vocabulaire-historique",
+      "instruction": "Associe chaque mot à sa définition.",
+      "pairs": [
+        { "left": "Colonie", "right": "Territoire administré par un pays étranger" },
+        { "left": "Métropole", "right": "Le pays qui dirige la colonie (la France)" },
+        { "left": "Seigneurie", "right": "Grand domaine divisé en terres pour les habitants" },
+        { "left": "Corvée", "right": "Travail que l'habitant devait au seigneur" }
+      ]
+    }
+  ]
+}

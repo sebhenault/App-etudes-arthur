@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "id": "ma-geometrie-01",
+  "title": "La géométrie",
+  "subject": "mathematique",
+  "topic": "geometrie",
+  "grade": 4,
+  "difficulty": 2,
+  "estimatedMinutes": 5,
+  "source": "PFEQ – Géométrie (2e cycle) · Cahier Terminus 4e",
+  "description": "Polygones, angles, solides, axes de symétrie et plan cartésien simple.",
+  "tags": ["géométrie", "polygone", "angle", "solide", "symétrie"],
+  "defaultEnabled": true,
+  "items": [
+    {
+      "id": "geo-01",
+      "type": "association",
+      "skill": "nommer-polygones",
+      "instruction": "Associe chaque polygone à son nombre de côtés.",
+      "pairs": [
+        { "left": "Triangle", "right": "3 côtés" },
+        { "left": "Pentagone", "right": "5 côtés" },
+        { "left": "Hexagone", "right": "6 côtés" },
+        { "left": "Octogone", "right": "8 côtés" }
+      ]
+    },
+    {
+      "id": "geo-02",
+      "type": "qcm",
+      "skill": "angles",
+      "question": "Un angle plus petit qu'un angle droit s'appelle…",
+      "choices": ["un angle aigu", "un angle obtus", "un angle plat"],
+      "answer": 0,
+      "explanation": "Aigu < 90°, droit = 90°, obtus > 90°."
+    },
+    {
+      "id": "geo-03",
+      "type": "classement",
+      "skill": "quadrilateres",
+      "instruction": "Classe ces figures.",
+      "buckets": ["Quadrilatère", "Pas un quadrilatère"],
+      "tokens": [
+        { "text": "Carré", "bucket": "Quadrilatère" },
+        { "text": "Losange", "bucket": "Quadrilatère" },
+        { "text": "Triangle", "bucket": "Pas un quadrilatère" },
+        { "text": "Trapèze", "bucket": "Quadrilatère" },
+        { "text": "Cercle", "bucket": "Pas un quadrilatère" },
+        { "text": "Rectangle", "bucket": "Quadrilatère" }
+      ]
+    },
+    {
+      "id": "geo-04",
+      "type": "qcm",
+      "skill": "solides",
+      "question": "Combien de faces a un cube ?",
+      "choices": ["4", "6", "8"],
+      "answer": 1,
+      "explanation": "Un cube a 6 faces carrées, 12 arêtes et 8 sommets."
+    },
+    {
+      "id": "geo-05",
+      "type": "calcul",
+      "skill": "solides",
+      "question": "Combien de sommets a un cube ?",
+      "answer": 8
+    },
+    {
+      "id": "geo-06",
+      "type": "vraiFaux",
+      "skill": "symetrie",
+      "statement": "Un carré possède 4 axes de symétrie.",
+      "answer": true,
+      "explanation": "Deux axes passent par les milieux des côtés, deux par les diagonales."
+    },
+    {
+      "id": "geo-07",
+      "type": "qcm",
+      "skill": "droites",
+      "question": "Deux droites qui se croisent en formant un angle droit sont…",
+      "choices": ["parallèles", "perpendiculaires", "obliques"],
+      "answer": 1
+    },
+    {
+      "id": "geo-08",
+      "type": "classement",
+      "skill": "solides",
+      "instruction": "Classe ces solides.",
+      "buckets": ["A des faces planes seulement", "A une surface courbe"],
+      "tokens": [
+        { "text": "Cube", "bucket": "A des faces planes seulement" },
+        { "text": "Sphère", "bucket": "A une surface courbe" },
+        { "text": "Pyramide", "bucket": "A des faces planes seulement" },
+        { "text": "Cylindre", "bucket": "A une surface courbe" },
+        { "text": "Prisme rectangulaire", "bucket": "A des faces planes seulement" },
+        { "text": "Cône", "bucket": "A une surface courbe" }
+      ]
+    }
+  ]
+}

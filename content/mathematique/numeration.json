@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "id": "ma-numeration-01",
+  "title": "Les nombres jusqu'à 100 000",
+  "subject": "mathematique",
+  "topic": "numeration",
+  "grade": 4,
+  "difficulty": 1,
+  "estimatedMinutes": 5,
+  "source": "PFEQ – Arithmétique, sens des nombres (2e cycle) · Cahier Terminus 4e",
+  "description": "Valeur de position, décomposition, comparaison et arrondissement des nombres naturels.",
+  "tags": [
+    "numération",
+    "valeur de position",
+    "arrondir"
+  ],
+  "defaultEnabled": true,
+  "items": [
+    {
+      "id": "num-01",
+      "type": "qcm",
+      "skill": "valeur-position",
+      "question": "Dans le nombre 47 358, quel est le chiffre des centaines ?",
+      "choices": [
+        "7",
+        "3",
+        "5"
+      ],
+      "answer": 1,
+      "explanation": "47 358 → 4 dizaines de mille, 7 unités de mille, 3 centaines, 5 dizaines, 8 unités."
+    },
+    {
+      "id": "num-02",
+      "type": "calcul",
+      "skill": "decomposition",
+      "question": "Quel nombre correspond à 6 × 10 000 + 2 × 1 000 + 9 × 10 + 4 ?",
+      "answer": 62094,
+      "explanation": "60 000 + 2 000 + 0 centaine + 90 + 4 = 62 094."
+    },
+    {
+      "id": "num-03",
+      "type": "ordre",
+      "skill": "comparer-ordonner",
+      "instruction": "Place ces nombres du plus petit au plus grand.",
+      "sequence": [
+        "8 906",
+        "9 060",
+        "9 600",
+        "60 090"
+      ]
+    },
+    {
+      "id": "num-04",
+      "type": "qcm",
+      "skill": "arrondir",
+      "question": "Arrondis 3 748 à la centaine près.",
+      "choices": [
+        "3 700",
+        "3 800",
+        "4 000"
+      ],
+      "answer": 0,
+      "explanation": "Le chiffre des centaines est 7. On regarde le chiffre juste à sa droite (4). Comme 4 < 5, on garde 7 centaines : 3 700."
+    },
+    {
+      "id": "num-05",
+      "type": "calcul",
+      "skill": "addition",
+      "question": "Calcule : 2 456 + 1 379",
+      "answer": 3835
+    },
+    {
+      "id": "num-06",
+      "type": "calcul",
+      "skill": "soustraction",
+      "question": "Calcule : 5 002 − 1 748",
+      "answer": 3254
+    },
+    {
+      "id": "num-07",
+      "type": "classement",
+      "skill": "pair-impair",
+      "instruction": "Classe ces nombres.",
+      "buckets": [
+        "Pair",
+        "Impair"
+      ],
+      "tokens": [
+        {
+          "text": "348",
+          "bucket": "Pair"
+        },
+        {
+          "text": "1 205",
+          "bucket": "Impair"
+        },
+        {
+          "text": "76",
+          "bucket": "Pair"
+        },
+        {
+          "text": "999",
+          "bucket": "Impair"
+        },
+        {
+          "text": "4 010",
+          "bucket": "Pair"
+        },
+        {
+          "text": "127",
+          "bucket": "Impair"
+        }
+      ]
+    },
+    {
+      "id": "num-08",
+      "type": "texteATrous",
+      "skill": "ecriture-lettres",
+      "prompt": "Écris en chiffres : quarante-deux mille cent six → ___",
+      "answers": [
+        "42106",
+        "42 106"
+      ],
+      "explanation": "42 106."
+    },
+    {
+      "id": "num-09",
+      "type": "qcm",
+      "skill": "comparer-ordonner",
+      "question": "Quel signe complète : 12 340 ___ 12 043 ?",
+      "choices": [
+        ">",
+        "<",
+        "="
+      ],
+      "answer": 0,
+      "explanation": "On compare chiffre par chiffre à partir de la gauche : 3 centaines > 0 centaine."
+    },
+    {
+      "id": "num-10",
+      "type": "calcul",
+      "skill": "suite-nombres",
+      "question": "Continue la suite : 250, 500, 750, ___",
+      "answer": 1000,
+      "explanation": "La régularité est +250."
+    }
+  ]
+}

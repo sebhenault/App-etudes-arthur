@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "id": "ma-mesures-01",
+  "title": "Les mesures",
+  "subject": "mathematique",
+  "topic": "mesures",
+  "grade": 4,
+  "difficulty": 2,
+  "estimatedMinutes": 5,
+  "source": "PFEQ – Mesure (2e cycle) · Cahier Matcha 4e",
+  "description": "Longueurs (m, dm, cm, mm), périmètre, aire, temps, masse et capacité.",
+  "tags": ["mesure", "longueur", "périmètre", "aire", "temps"],
+  "defaultEnabled": true,
+  "items": [
+    { "id": "mes-01", "type": "calcul", "skill": "conversion-longueur", "question": "Combien y a-t-il de centimètres dans 3 mètres ?", "answer": 300, "unit": "cm" },
+    { "id": "mes-02", "type": "calcul", "skill": "conversion-longueur", "question": "Combien y a-t-il de millimètres dans 7 cm ?", "answer": 70, "unit": "mm" },
+    {
+      "id": "mes-03",
+      "type": "calcul",
+      "skill": "perimetre",
+      "question": "Quel est le périmètre d'un carré dont le côté mesure 9 cm ?",
+      "answer": 36,
+      "unit": "cm",
+      "explanation": "Périmètre du carré = côté × 4 = 9 × 4 = 36 cm."
+    },
+    {
+      "id": "mes-04",
+      "type": "calcul",
+      "skill": "perimetre",
+      "question": "Un rectangle mesure 12 cm de long et 5 cm de large. Quel est son périmètre ?",
+      "answer": 34,
+      "unit": "cm",
+      "explanation": "(12 + 5) × 2 = 34 cm."
+    },
+    {
+      "id": "mes-05",
+      "type": "calcul",
+      "skill": "aire",
+      "question": "Une figure est formée de 18 carrés-unités. Quelle est son aire ?",
+      "answer": 18,
+      "unit": "carrés-unités",
+      "explanation": "L'aire, c'est le nombre de carrés-unités qui recouvrent la surface."
+    },
+    {
+      "id": "mes-06",
+      "type": "association",
+      "skill": "choisir-unite",
+      "instruction": "Associe chaque objet à l'unité la plus appropriée.",
+      "pairs": [
+        { "left": "La longueur d'un crayon", "right": "centimètre (cm)" },
+        { "left": "La hauteur d'une porte", "right": "mètre (m)" },
+        { "left": "L'épaisseur d'une pièce de monnaie", "right": "millimètre (mm)" },
+        { "left": "La distance Montréal–Québec", "right": "kilomètre (km)" }
+      ]
+    },
+    {
+      "id": "mes-07",
+      "type": "qcm",
+      "skill": "temps",
+      "question": "Il est 14 h 45. Dans combien de minutes sera-t-il 15 h 10 ?",
+      "choices": ["15 minutes", "25 minutes", "35 minutes"],
+      "answer": 1,
+      "explanation": "De 14 h 45 à 15 h : 15 min. De 15 h à 15 h 10 : 10 min. Total 25 min."
+    },
+    {
+      "id": "mes-08",
+      "type": "classement",
+      "skill": "choisir-unite",
+      "instruction": "Classe ces mesures.",
+      "buckets": ["Masse", "Capacité"],
+      "tokens": [
+        { "text": "2 kg de pommes", "bucket": "Masse" },
+        { "text": "1 L de lait", "bucket": "Capacité" },
+        { "text": "500 g de farine", "bucket": "Masse" },
+        { "text": "250 mL de jus", "bucket": "Capacité" }
+      ]
+    },
+    {
+      "id": "mes-09",
+      "type": "calcul",
+      "skill": "conversion-masse",
+      "question": "Combien y a-t-il de grammes dans 2 kg ?",
+      "answer": 2000,
+      "unit": "g"
+    },
+    {
+      "id": "mes-10",
+      "type": "ordre",
+      "skill": "comparer-longueurs",
+      "instruction": "Place ces longueurs de la plus courte à la plus longue.",
+      "sequence": ["45 mm", "9 cm", "3 dm", "2 m"]
+    }
+  ]
+}

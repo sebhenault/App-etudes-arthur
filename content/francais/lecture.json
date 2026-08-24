@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "id": "fr-lecture-01",
+  "title": "Compréhension de lecture",
+  "subject": "francais",
+  "topic": "lecture",
+  "grade": 4,
+  "difficulty": 2,
+  "estimatedMinutes": 8,
+  "source": "PFEQ – Lire des textes variés · Préparation à l'épreuve ministérielle de français 4e année",
+  "description": "Textes courts avec repérage d'informations, inférences et intention de l'auteur.",
+  "tags": ["lecture", "compréhension", "inférence"],
+  "defaultEnabled": true,
+  "items": [
+    {
+      "id": "lec-01",
+      "type": "lecture",
+      "skill": "comprehension",
+      "passage": {
+        "title": "La cabane à sucre",
+        "text": "Chaque printemps, la famille de Zoé se rend à la cabane à sucre de son oncle Marcel. Dès que la neige commence à fondre et que les nuits restent froides, la sève des érables se met à couler. Marcel installe alors des chaudières au pied de chaque arbre. Il faut environ quarante litres d'eau d'érable pour obtenir un seul litre de sirop ! Zoé adore verser le sirop bouillant sur la neige pour faire de la tire. Cette année, elle a même aidé son oncle à surveiller l'évaporateur, une grande machine qui fait bouillir l'eau d'érable pendant des heures."
+      },
+      "questions": [
+        {
+          "id": "lec-01-q1",
+          "question": "Quand la sève des érables coule-t-elle ?",
+          "choices": [
+            "Quand la neige fond et que les nuits sont froides",
+            "En plein été",
+            "Quand il neige beaucoup"
+          ],
+          "answer": 0,
+          "skill": "reperage-information"
+        },
+        {
+          "id": "lec-01-q2",
+          "question": "Combien de litres d'eau d'érable faut-il pour un litre de sirop ?",
+          "choices": ["4 litres", "40 litres", "400 litres"],
+          "answer": 1,
+          "skill": "reperage-information"
+        },
+        {
+          "id": "lec-01-q3",
+          "question": "Pourquoi peut-on dire que faire du sirop demande de la patience ?",
+          "choices": [
+            "Parce qu'il faut beaucoup d'eau d'érable et de longues heures d'ébullition",
+            "Parce que l'oncle Marcel est lent",
+            "Parce que la cabane est loin"
+          ],
+          "answer": 0,
+          "skill": "inference"
+        },
+        {
+          "id": "lec-01-q4",
+          "question": "À quoi sert l'évaporateur ?",
+          "choices": [
+            "À faire bouillir l'eau d'érable",
+            "À couper les érables",
+            "À refroidir la tire"
+          ],
+          "answer": 0,
+          "skill": "reperage-information"
+        }
+      ]
+    },
+    {
+      "id": "lec-02",
+      "type": "lecture",
+      "skill": "comprehension",
+      "passage": {
+        "title": "Le mystère du casier 42",
+        "text": "Lundi matin, Arthur trouve une enveloppe glissée dans son casier. À l'intérieur, un message écrit à la main : « Rendez-vous à la bibliothèque, rangée des dinosaures, à midi pile. » Aucune signature. Arthur relit le message trois fois. L'écriture penche vers la droite, exactement comme celle de Sofia, sa voisine de pupitre. À midi, le cœur battant, il pousse la porte de la bibliothèque. Personne. Sur la tablette, entre deux livres de dinosaures, l'attend un petit paquet enveloppé de papier bleu. Une carte dépasse : « Bonne fête, Arthur ! »"
+      },
+      "questions": [
+        {
+          "id": "lec-02-q1",
+          "question": "Où Arthur doit-il se rendre ?",
+          "choices": ["Au gymnase", "À la bibliothèque", "Dans la cour d'école"],
+          "answer": 1,
+          "skill": "reperage-information"
+        },
+        {
+          "id": "lec-02-q2",
+          "question": "Quel indice fait penser à Arthur que Sofia a écrit le message ?",
+          "choices": [
+            "L'écriture penchée vers la droite",
+            "La couleur de l'enveloppe",
+            "Le parfum du papier"
+          ],
+          "answer": 0,
+          "skill": "inference"
+        },
+        {
+          "id": "lec-02-q3",
+          "question": "Quel sentiment Arthur ressent-il en poussant la porte ?",
+          "choices": ["De l'ennui", "De la colère", "De la nervosité"],
+          "answer": 2,
+          "skill": "inference",
+          "explanation": "« le cœur battant » montre qu'Arthur est nerveux et excité."
+        },
+        {
+          "id": "lec-02-q4",
+          "question": "Quel est le but de ce texte ?",
+          "choices": ["Raconter une histoire", "Expliquer une recette", "Convaincre le lecteur"],
+          "answer": 0,
+          "skill": "intention-auteur"
+        }
+      ]
+    }
+  ]
+}
