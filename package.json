@@ -12,7 +12,9 @@
     "content:check": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --import ./scripts/lib/register-hooks.mjs scripts/validate-content.mjs",
     "typecheck": "tsc --noEmit",
     "test": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --import ./scripts/lib/register-hooks.mjs --test tests/*.test.mjs",
-    "verifier": "npm run content:check && npm run typecheck && npm test"
+    "verifier": "npm run content:check && npm run typecheck && npm test",
+    "build:pwa": "node scripts/build-pwa.mjs",
+    "icones": "python3 scripts/make-icons.py"
   },
   "dependencies": {
     "@expo/metro-runtime": "~57.0.13",

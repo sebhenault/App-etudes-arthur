@@ -18,6 +18,8 @@ npm run content:build      # génère le registre à partir de content/
 npm start                  # puis « i » (iOS), « a » (Android) ou scanner le QR avec Expo Go
 ```
 
+Pour l'installer durablement sur un téléphone, voir [Installer sur l'iPhone d'Arthur](#installer-sur-liphone-darthur).
+
 | Commande | Rôle |
 | --- | --- |
 | `npm start` | Lance le serveur de développement Expo |
@@ -27,6 +29,26 @@ npm start                  # puis « i » (iOS), « a » (Android) ou scanner le
 | `npm run typecheck` | Vérification TypeScript |
 | `npm test` | Tests unitaires des algorithmes (75 tests) |
 | `npm run verifier` | Contenu + types + tests, en une commande |
+| `npm run build:pwa` | Construit la version web installable (PWA) dans `dist/` |
+| `npm run icones` | Régénère les icônes de l'app (nécessite Pillow) |
+
+---
+
+## Installer sur l'iPhone d'Arthur
+
+**Voie retenue : PWA** — gratuite, sans Mac, sans compte Apple Developer, sans App Store.
+Une fois installée depuis Safari (Partager → « Sur l'écran d'accueil »), l'application vit
+sur l'écran d'accueil, en plein écran, et **fonctionne sans réseau**.
+
+Adresse une fois GitHub Pages activé : **https://sebhenault.github.io/App-etudes-arthur/**
+
+```bash
+npm run build:pwa    # construit la version web installable dans dist/
+```
+
+Le déploiement est automatique à chaque push sur `main`
+(`.github/workflows/deploy-pwa.yml`). Marche à suivre complète, y compris l'activation de
+GitHub Pages : **[docs/INSTALLATION-IPHONE.md](docs/INSTALLATION-IPHONE.md)**.
 
 ---
 
@@ -92,6 +114,7 @@ Programme de formation de l'école québécoise (2e cycle).
 | [docs/MAQUETTES.md](docs/MAQUETTES.md) | Maquettes textuelles de tous les écrans |
 | [docs/PLAN-DEVELOPPEMENT.md](docs/PLAN-DEVELOPPEMENT.md) | Phases, MVP, fonctionnalités futures |
 | [docs/GUIDE-PARENT.md](docs/GUIDE-PARENT.md) | Mode d'emploi hebdomadaire, sans jargon |
+| [docs/INSTALLATION-IPHONE.md](docs/INSTALLATION-IPHONE.md) | Installer sur l'iPhone sans App Store (PWA) |
 
 ---
 

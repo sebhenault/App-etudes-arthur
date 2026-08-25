@@ -13,7 +13,9 @@
       "resizeMode": "contain",
       "backgroundColor": "#F5F7FF"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.arthur.defisarthur"
@@ -29,9 +31,14 @@
       "predictiveBackGestureEnabled": false
     },
     "web": {
-      "favicon": "./assets/favicon.png",
+      "favicon": "./public/icons/favicon-32.png",
       "bundler": "metro"
     },
-    "plugins": ["expo-sqlite"]
+    "plugins": [
+      "expo-sqlite"
+    ],
+    "experiments": {
+      "baseUrl": "/App-etudes-arthur"
+    }
   }
 }
