@@ -71,12 +71,17 @@ Le dépôt doit être public pour que GitHub Pages soit gratuit. Deux points à 
 
 1. **Aucune donnée d'Arthur n'est publiée.** Ses résultats vivent dans la base SQLite de
    son téléphone. Le dépôt ne contient que le code et les exercices.
-2. **Le commit initial du dépôt porte l'adresse `sebastien.henault@organisateur.ca`** dans
-   ses métadonnées d'auteur. Rendre le dépôt public la rend visible. Deux options :
-   - l'accepter (c'est une adresse professionnelle, et la plupart des dépôts publics
-     exposent les adresses de leurs auteurs) ;
-   - réécrire l'historique avec `git filter-repo --email-callback` avant de passer en
-     public. Cela suppose un force-push sur `main`.
+2. **L'historique Git a été nettoyé avant le passage en public.** Le commit initial
+   portait une adresse courriel personnelle dans ses métadonnées d'auteur ; elle a été
+   remplacée par l'adresse GitHub anonyme `sebhenault@users.noreply.github.com`
+   (`git filter-repo --email-callback`, puis force-push). Plus aucune adresse personnelle
+   ne subsiste, ni dans les fichiers, ni dans les métadonnées de commits.
+
+   À refaire si de nouveaux commits arrivent depuis un poste dont le `git config user.email`
+   est une adresse personnelle. Pour l'éviter :
+   ```bash
+   git config user.email "sebhenault@users.noreply.github.com"
+   ```
 
 Si le dépôt doit rester privé, **Cloudflare Pages** ou **Netlify** déploient gratuitement
 depuis un dépôt privé — l'URL de l'application reste publique dans tous les cas, c'est
