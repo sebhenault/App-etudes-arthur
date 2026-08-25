@@ -40,7 +40,9 @@ Pour l'installer durablement sur un téléphone, voir [Installer sur l'iPhone d'
 Une fois installée depuis Safari (Partager → « Sur l'écran d'accueil »), l'application vit
 sur l'écran d'accueil, en plein écran, et **fonctionne sans réseau**.
 
-Adresse une fois GitHub Pages activé : **https://sebhenault.github.io/App-etudes-arthur/**
+**Déployée et en ligne : https://sebhenault.github.io/App-etudes-arthur/**
+
+Ouvrir cette adresse dans Safari sur l'iPhone → Partager → « Sur l'écran d'accueil ».
 
 ```bash
 npm run build:pwa    # construit la version web installable dans dist/

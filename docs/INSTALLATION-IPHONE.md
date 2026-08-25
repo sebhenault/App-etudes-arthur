@@ -24,38 +24,37 @@ la vraie validation.
 
 ---
 
-## Étape 1 — Activer GitHub Pages (à faire une fois)
+## État : déployé ✅
 
-1. Le dépôt doit être **public** : Settings → General → bas de page → *Change repository
-   visibility* → Public.
-   *Avant de le faire, lire la section « Vie privée » plus bas.*
-2. Settings → **Pages** → Source → choisir **GitHub Actions**.
+Le déploiement automatique est en place et le premier a réussi
+(GitHub Pages activé, workflow `Déployer la PWA` vert de bout en bout :
+validation du contenu → 75 tests → build → déploiement).
 
-## Étape 2 — Fusionner dans `main`
+**L'application est à : https://sebhenault.github.io/App-etudes-arthur/**
 
-Le workflow `.github/workflows/deploy-pwa.yml` ne se déclenche que sur `main`, parce que
-l'environnement `github-pages` n'autorise que la branche par défaut. Un déclenchement
-depuis une branche de travail échoue instantanément et sans logs.
+## Installer sur l'iPhone
 
-Une fois la branche fusionnée, chaque push sur `main` :
-valide le contenu → régénère le registre → lance les tests → construit la PWA → déploie.
-
-L'application sera à : **https://sebhenault.github.io/App-etudes-arthur/**
-
-## Étape 3 — Installer sur l'iPhone
-
-1. Ouvrir l'adresse **dans Safari** (pas Chrome : seul Safari sait installer sur l'écran
-   d'accueil sous iOS). Le QR code ci-contre y mène : `docs/installer-qr.png`.
-2. Toucher le bouton **Partager** (le carré avec une flèche vers le haut).
+1. Ouvrir cette adresse **dans Safari** — pas Chrome : sous iOS, seul Safari sait installer
+   sur l'écran d'accueil. Le QR code `docs/installer-qr.png` y mène.
+2. Toucher **Partager** (le carré avec une flèche vers le haut).
 3. Faire défiler → **« Sur l'écran d'accueil »** → **Ajouter**.
 
 L'icône (une cible bleue) apparaît sur l'écran d'accueil. Au lancement, plus de barre
 d'adresse : c'est une application plein écran.
 
-## Étape 4 — Vérifier
+### Si la page demande une connexion ou renvoie une erreur 404
+
+C'est une question de visibilité, pas de déploiement. Vérifier :
+- Settings → General → le dépôt doit être **public** (Pages gratuit l'exige) ;
+- Settings → Pages → la visibilité du site doit être **publique**.
+
+## Vérifier que tout marche
 
 - Couper le Wi-Fi et les données, ouvrir l'app : elle doit s'afficher normalement.
 - Jouer une partie, fermer l'app, la rouvrir : les points doivent avoir été conservés.
+
+Ces deux comportements ont été validés dans Chromium avant déploiement. **Safari iOS n'a
+pas pu être testé** depuis l'environnement de développement : c'est la seule inconnue.
 
 ---
 
