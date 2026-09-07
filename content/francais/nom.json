@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "id": "fr-nom-01",
+  "title": "Le nom commun",
+  "subject": "francais",
+  "topic": "nom",
+  "grade": 4,
+  "difficulty": 2,
+  "estimatedMinutes": 5,
+  "source": "Plan de la semaine du 7 au 18 septembre 2026 · Cartable d'étude — Le nom (partie 3e-4e années)",
+  "description": "Reconnaître les noms communs dans une phrase, les distinguer des noms propres et des autres classes de mots.",
+  "tags": ["nom commun", "nom propre", "classe de mots", "rentrée"],
+  "defaultEnabled": true,
+  "items": [
+    {
+      "id": "nom-01",
+      "type": "qcm",
+      "skill": "reconnaitre-nom",
+      "question": "Dans « Le chien dort sur le tapis », combien y a-t-il de noms communs ?",
+      "choices": ["Un seul", "Deux", "Trois"],
+      "answer": 1,
+      "explanation": "« chien » et « tapis » sont des noms communs. « dort » est un verbe, « le » et « sur » ne sont pas des noms."
+    },
+    {
+      "id": "nom-02",
+      "type": "qcm",
+      "skill": "truc-determinant",
+      "question": "Quel truc permet de reconnaître un nom commun ?",
+      "choices": [
+        "On peut mettre « un », « une » ou « des » devant.",
+        "Il se termine toujours par -er.",
+        "Il commence toujours par une majuscule."
+      ],
+      "answer": 0,
+      "explanation": "Un nom commun accepte un déterminant : une table, des tables. C'est le truc le plus sûr."
+    },
+    {
+      "id": "nom-03",
+      "type": "classement",
+      "skill": "nom-ou-pas",
+      "instruction": "Est-ce un nom commun ou non ?",
+      "buckets": ["Nom commun", "Pas un nom"],
+      "tokens": [
+        { "text": "école", "bucket": "Nom commun" },
+        { "text": "courir", "bucket": "Pas un nom" },
+        { "text": "montagne", "bucket": "Nom commun" },
+        { "text": "rapidement", "bucket": "Pas un nom" },
+        { "text": "crayon", "bucket": "Nom commun" },
+        { "text": "joyeux", "bucket": "Pas un nom" }
+      ],
+      "explanation": "Essaie de mettre « un » ou « une » devant : une école, une montagne, un crayon. Ça ne marche pas avec « courir » ni « joyeux »."
+    },
+    {
+      "id": "nom-04",
+      "type": "classement",
+      "skill": "nom-commun-propre",
+      "instruction": "Nom commun ou nom propre ?",
+      "buckets": ["Nom commun", "Nom propre"],
+      "tokens": [
+        { "text": "une ville", "bucket": "Nom commun" },
+        { "text": "Montréal", "bucket": "Nom propre" },
+        { "text": "un fleuve", "bucket": "Nom commun" },
+        { "text": "Arthur", "bucket": "Nom propre" },
+        { "text": "un pays", "bucket": "Nom commun" },
+        { "text": "le Québec", "bucket": "Nom propre" }
+      ],
+      "explanation": "Le nom propre désigne UNE personne, UN lieu précis, et prend une majuscule. Le nom commun désigne toute une catégorie."
+    },
+    {
+      "id": "nom-05",
+      "type": "vraiFaux",
+      "skill": "nom-commun-propre",
+      "statement": "Un nom commun commence toujours par une majuscule.",
+      "answer": false,
+      "explanation": "C'est le nom PROPRE qui prend la majuscule. Le nom commun s'écrit en minuscules : un chien, une école."
+    },
+    {
+      "id": "nom-06",
+      "type": "qcm",
+      "skill": "reconnaitre-nom",
+      "question": "Dans « Ma sœur a perdu ses mitaines dans l'autobus », quel mot n'est PAS un nom commun ?",
+      "choices": ["sœur", "perdu", "mitaines"],
+      "answer": 1,
+      "explanation": "« perdu » vient du verbe perdre. Les noms sont « sœur », « mitaines » et « autobus »."
+    },
+    {
+      "id": "nom-07",
+      "type": "texteATrous",
+      "skill": "reconnaitre-nom",
+      "prompt": "Trouve le premier nom commun de cette phrase : « Le castor construit un barrage. » → ___",
+      "answers": ["castor", "le castor"],
+      "explanation": "« castor » est un nom commun : on peut dire « un castor »."
+    },
+    {
+      "id": "nom-08",
+      "type": "association",
+      "skill": "nom-genre",
+      "instruction": "Associe chaque nom à son déterminant.",
+      "pairs": [
+        { "left": "___ école", "right": "une" },
+        { "left": "___ crayons", "right": "des" },
+        { "left": "___ ballon", "right": "un" },
+        { "left": "___ eau", "right": "de l'" }
+      ],
+      "explanation": "Le déterminant s'accorde avec le nom : masculin ou féminin, singulier ou pluriel."
+    },
+    {
+      "id": "nom-09",
+      "type": "classement",
+      "skill": "nom-nombre",
+      "instruction": "Ce nom est-il au singulier ou au pluriel ?",
+      "buckets": ["Singulier", "Pluriel"],
+      "tokens": [
+        { "text": "un livre", "bucket": "Singulier" },
+        { "text": "des amis", "bucket": "Pluriel" },
+        { "text": "la fenêtre", "bucket": "Singulier" },
+        { "text": "les autobus", "bucket": "Pluriel" },
+        { "text": "mes souliers", "bucket": "Pluriel" },
+        { "text": "ton sac", "bucket": "Singulier" }
+      ]
+    },
+    {
+      "id": "nom-10",
+      "type": "qcm",
+      "skill": "nom-abstrait",
+      "question": "Un nom commun peut aussi désigner quelque chose qu'on ne peut pas toucher. Lequel ?",
+      "choices": ["la joie", "sauter", "vert"],
+      "answer": 0,
+      "explanation": "« la joie » est un nom commun : on peut dire « une joie ». Un nom ne désigne pas seulement des objets."
+    },
+    {
+      "id": "nom-11",
+      "type": "qcm",
+      "skill": "reconnaitre-nom",
+      "question": "Combien de noms communs dans « Les élèves rangent leurs livres dans le casier » ?",
+      "choices": ["Deux", "Trois", "Quatre"],
+      "answer": 1,
+      "explanation": "« élèves », « livres » et « casier ». « rangent » est un verbe."
+    },
+    {
+      "id": "nom-12",
+      "type": "vraiFaux",
+      "skill": "truc-determinant",
+      "statement": "Dans « Arthur lit un livre », le mot « lit » est un nom commun.",
+      "answer": false,
+      "explanation": "Ici, « lit » est le verbe lire conjugué. Attention : « un lit » pour dormir serait un nom ! C'est la phrase qui décide."
+    }
+  ]
+}

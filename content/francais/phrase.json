@@ -1,0 +1,229 @@
+{
+  "schemaVersion": 1,
+  "id": "fr-phrase-01",
+  "title": "La phrase : Qui ? fait Quoi ?",
+  "subject": "francais",
+  "topic": "phrase",
+  "grade": 4,
+  "difficulty": 1,
+  "estimatedMinutes": 5,
+  "source": "Plan de la semaine du 7 au 18 septembre 2026 · Cartable d'étude — La phrase (partie 1re-2e années)",
+  "description": "Reconnaître les deux parties de la phrase et écrire des phrases complètes.",
+  "tags": [
+    "phrase",
+    "sujet",
+    "prédicat",
+    "rentrée"
+  ],
+  "defaultEnabled": true,
+  "items": [
+    {
+      "id": "phr-01",
+      "type": "qcm",
+      "skill": "phrase-qui",
+      "question": "Dans « Mon chien court dans le jardin », quelle partie répond à la question « Qui ? »",
+      "choices": [
+        "Mon chien",
+        "court",
+        "dans le jardin"
+      ],
+      "answer": 0,
+      "explanation": "On demande : qui est-ce qui court ? C'est « Mon chien ». C'est la première partie de la phrase."
+    },
+    {
+      "id": "phr-02",
+      "type": "qcm",
+      "skill": "phrase-quoi",
+      "question": "Dans « Mon chien court dans le jardin », quelle partie répond à « fait Quoi ? »",
+      "choices": [
+        "Mon chien",
+        "court dans le jardin",
+        "le jardin"
+      ],
+      "answer": 1,
+      "explanation": "La deuxième partie dit ce que fait le « Qui ? ». Elle commence toujours par le verbe."
+    },
+    {
+      "id": "phr-03",
+      "type": "classement",
+      "skill": "phrase-deux-parties",
+      "instruction": "Chaque étiquette est un morceau de phrase. Classe-la dans la bonne colonne.",
+      "buckets": [
+        "Qui ?",
+        "fait Quoi ?"
+      ],
+      "tokens": [
+        {
+          "text": "Ma sœur",
+          "bucket": "Qui ?"
+        },
+        {
+          "text": "mange une pomme",
+          "bucket": "fait Quoi ?"
+        },
+        {
+          "text": "Les élèves",
+          "bucket": "Qui ?"
+        },
+        {
+          "text": "jouent au ballon",
+          "bucket": "fait Quoi ?"
+        },
+        {
+          "text": "Le chat du voisin",
+          "bucket": "Qui ?"
+        },
+        {
+          "text": "dort sur le divan",
+          "bucket": "fait Quoi ?"
+        }
+      ],
+      "explanation": "La partie « Qui ? » commence souvent par un déterminant (le, la, mon, les). La partie « fait Quoi ? » commence par le verbe."
+    },
+    {
+      "id": "phr-04",
+      "type": "qcm",
+      "skill": "phrase-complete",
+      "question": "Laquelle de ces phrases est complète ?",
+      "choices": [
+        "Le gros camion rouge du voisin.",
+        "Le gros camion rouge klaxonne très fort.",
+        "Klaxonne très fort."
+      ],
+      "answer": 1,
+      "explanation": "Une phrase complète a ses DEUX parties : un « Qui ? » et un « fait Quoi ? »."
+    },
+    {
+      "id": "phr-05",
+      "type": "qcm",
+      "skill": "phrase-partie-manquante",
+      "question": "Dans « Court dans la cour. », quelle partie manque-t-il ?",
+      "choices": [
+        "La partie « Qui ? »",
+        "La partie « fait Quoi ? »",
+        "Rien, la phrase est complète"
+      ],
+      "answer": 0,
+      "explanation": "On ne sait pas qui court. Il manque le « Qui ? » : Arthur court dans la cour."
+    },
+    {
+      "id": "phr-06",
+      "type": "qcm",
+      "skill": "phrase-partie-manquante",
+      "question": "Quel morceau complète la phrase « ___ mange une pomme. » ?",
+      "choices": [
+        "Ma petite sœur",
+        "Dans la cuisine",
+        "Rapidement"
+      ],
+      "answer": 0,
+      "explanation": "Il manquait le « Qui ? ». « Dans la cuisine » et « Rapidement » ne disent pas QUI mange."
+    },
+    {
+      "id": "phr-07",
+      "type": "association",
+      "skill": "phrase-deux-parties",
+      "instruction": "Associe chaque « Qui ? » au « fait Quoi ? » qui lui convient.",
+      "pairs": [
+        {
+          "left": "Le facteur",
+          "right": "distribue le courrier"
+        },
+        {
+          "left": "Les oiseaux",
+          "right": "chantent au printemps"
+        },
+        {
+          "left": "Ma grand-mère",
+          "right": "prépare une tarte"
+        },
+        {
+          "left": "Le vent",
+          "right": "souffle très fort"
+        }
+      ]
+    },
+    {
+      "id": "phr-08",
+      "type": "ordre",
+      "skill": "phrase-ordre",
+      "instruction": "Remets les morceaux en ordre pour former une phrase.",
+      "sequence": [
+        "Mon chien",
+        "court",
+        "dans le jardin",
+        "à tous les matins"
+      ],
+      "explanation": "D'abord le « Qui ? », ensuite le « fait Quoi ? »."
+    },
+    {
+      "id": "phr-09",
+      "type": "vraiFaux",
+      "skill": "phrase-majuscule-point",
+      "statement": "Une phrase commence par une majuscule et se termine par un point.",
+      "answer": true,
+      "explanation": "C'est vrai pour toutes les phrases, même les plus courtes."
+    },
+    {
+      "id": "phr-10",
+      "type": "qcm",
+      "skill": "phrase-majuscule-point",
+      "question": "Quelle phrase est correctement écrite ?",
+      "choices": [
+        "mon chien court dans le jardin",
+        "Mon chien court dans le jardin.",
+        "Mon chien court dans le jardin"
+      ],
+      "answer": 1,
+      "explanation": "Majuscule au début, point à la fin."
+    },
+    {
+      "id": "phr-11",
+      "type": "classement",
+      "skill": "phrase-complete",
+      "instruction": "Est-ce une phrase complète ou non ?",
+      "buckets": [
+        "Phrase complète",
+        "Il manque une partie"
+      ],
+      "tokens": [
+        {
+          "text": "Les enfants rient très fort.",
+          "bucket": "Phrase complète"
+        },
+        {
+          "text": "La grande maison bleue.",
+          "bucket": "Il manque une partie"
+        },
+        {
+          "text": "Arthur patine sur la glace.",
+          "bucket": "Phrase complète"
+        },
+        {
+          "text": "Dort dans son panier.",
+          "bucket": "Il manque une partie"
+        },
+        {
+          "text": "Maman prépare le souper.",
+          "bucket": "Phrase complète"
+        },
+        {
+          "text": "Le petit chien noir.",
+          "bucket": "Il manque une partie"
+        }
+      ]
+    },
+    {
+      "id": "phr-12",
+      "type": "ordre",
+      "skill": "phrase-ordre",
+      "instruction": "Remets les morceaux en ordre pour former une phrase.",
+      "sequence": [
+        "Les élèves de ma classe",
+        "présentent",
+        "leur projet",
+        "vendredi"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "id": "ma-addition-soustraction-01",
+  "title": "Additions et soustractions : effet du 0, du 1, du 2 et stratégies du 10",
+  "subject": "mathematique",
+  "topic": "addition-soustraction",
+  "grade": 4,
+  "difficulty": 1,
+  "estimatedMinutes": 5,
+  "source": "Plan de la semaine du 7 au 18 septembre 2026 · Cartable d'étude, feuilles orange · Aide-mémoire Matcha",
+  "description": "Effet du 0, du 1 et du 2 ; compléments à 10 ; décomposer pour faire 10 ; ajouter 10.",
+  "tags": ["addition", "soustraction", "calcul mental", "stratégies", "rentrée"],
+  "defaultEnabled": true,
+  "items": [
+    {
+      "id": "as-01",
+      "type": "qcm",
+      "skill": "effet-zero",
+      "question": "Que se passe-t-il quand on ajoute 0 à un nombre ?",
+      "choices": ["Le nombre ne change pas", "Le nombre devient 0", "Le nombre augmente de 1"],
+      "answer": 0,
+      "explanation": "Ajouter ou enlever 0 ne change rien : 47 + 0 = 47 et 47 − 0 = 47."
+    },
+    { "id": "as-02", "type": "calcul", "skill": "effet-zero", "question": "38 + 0 = ?", "answer": 38, "timeTargetMs": 5000 },
+    { "id": "as-03", "type": "calcul", "skill": "effet-zero", "question": "125 − 0 = ?", "answer": 125, "timeTargetMs": 5000 },
+    {
+      "id": "as-04",
+      "type": "qcm",
+      "skill": "effet-un",
+      "question": "Ajouter 1 à un nombre, c'est…",
+      "choices": ["dire le nombre qui vient juste après", "doubler le nombre", "revenir de deux nombres"],
+      "answer": 0,
+      "explanation": "+1, c'est le nombre suivant. −1, c'est le nombre précédent. Pas besoin de calculer !"
+    },
+    { "id": "as-05", "type": "calcul", "skill": "effet-un", "question": "69 + 1 = ?", "answer": 70, "timeTargetMs": 5000 },
+    { "id": "as-06", "type": "calcul", "skill": "effet-un", "question": "40 − 1 = ?", "answer": 39, "timeTargetMs": 5000 },
+    {
+      "id": "as-07",
+      "type": "qcm",
+      "skill": "effet-deux",
+      "question": "Ajouter 2 à un nombre, c'est…",
+      "choices": ["sauter par-dessus un nombre", "ajouter deux fois le nombre", "enlever 2"],
+      "answer": 0,
+      "explanation": "+2, c'est deux pas en avant : 15 → 16 → 17. −2, c'est deux pas en arrière."
+    },
+    { "id": "as-08", "type": "calcul", "skill": "effet-deux", "question": "58 + 2 = ?", "answer": 60, "timeTargetMs": 6000 },
+    { "id": "as-09", "type": "calcul", "skill": "effet-deux", "question": "31 − 2 = ?", "answer": 29, "timeTargetMs": 6000 },
+    {
+      "id": "as-10",
+      "type": "association",
+      "skill": "complement-10",
+      "instruction": "Associe chaque nombre à celui qui le complète pour faire 10.",
+      "pairs": [
+        { "left": "1", "right": "9" },
+        { "left": "2", "right": "8" },
+        { "left": "3", "right": "7" },
+        { "left": "4", "right": "6" }
+      ],
+      "explanation": "Les paires qui font 10 : 1+9, 2+8, 3+7, 4+6, 5+5. Il faut les savoir par cœur."
+    },
+    { "id": "as-11", "type": "calcul", "skill": "complement-10", "question": "6 + ___ = 10. Quel nombre manque ?", "answer": 4, "timeTargetMs": 6000 },
+    { "id": "as-12", "type": "calcul", "skill": "complement-10", "question": "3 + ___ = 10. Quel nombre manque ?", "answer": 7, "timeTargetMs": 6000 },
+    {
+      "id": "as-13",
+      "type": "qcm",
+      "skill": "decomposer-pour-10",
+      "question": "Pour calculer 8 + 5, la stratégie du 10 dit :",
+      "choices": [
+        "8 + 2 = 10, puis 10 + 3 = 13",
+        "8 + 5 = 8 + 8 = 16",
+        "on compte sur ses doigts jusqu'à 13"
+      ],
+      "answer": 0,
+      "explanation": "On complète d'abord jusqu'à 10 (8 + 2), puis on ajoute ce qui reste (3). C'est beaucoup plus rapide."
+    },
+    {
+      "id": "as-14",
+      "type": "calcul",
+      "skill": "decomposer-pour-10",
+      "question": "Fais 10 d'abord : 7 + 6 = ?",
+      "answer": 13,
+      "hint": "7 + 3 = 10, et il reste 3 à ajouter.",
+      "explanation": "7 + 3 = 10, puis 10 + 3 = 13."
+    },
+    {
+      "id": "as-15",
+      "type": "calcul",
+      "skill": "decomposer-pour-10",
+      "question": "Fais 10 d'abord : 9 + 7 = ?",
+      "answer": 16,
+      "hint": "9 + 1 = 10, et il reste 6 à ajouter.",
+      "explanation": "9 + 1 = 10, puis 10 + 6 = 16."
+    },
+    {
+      "id": "as-16",
+      "type": "qcm",
+      "skill": "ajouter-10",
+      "question": "Quand on ajoute 10 à un nombre, que se passe-t-il ?",
+      "choices": [
+        "Le chiffre des dizaines augmente de 1, celui des unités ne bouge pas",
+        "Tous les chiffres augmentent de 1",
+        "Le nombre double"
+      ],
+      "answer": 0,
+      "explanation": "34 + 10 = 44. Le 4 des unités ne change pas."
+    },
+    { "id": "as-17", "type": "calcul", "skill": "ajouter-10", "question": "56 + 10 = ?", "answer": 66, "timeTargetMs": 6000 },
+    { "id": "as-18", "type": "calcul", "skill": "ajouter-10", "question": "83 − 10 = ?", "answer": 73, "timeTargetMs": 6000 },
+    {
+      "id": "as-19",
+      "type": "classement",
+      "skill": "choisir-strategie",
+      "instruction": "Quelle stratégie utiliser pour chaque calcul ?",
+      "buckets": ["Effet du 0, 1 ou 2", "Stratégie du 10"],
+      "tokens": [
+        { "text": "45 + 1", "bucket": "Effet du 0, 1 ou 2" },
+        { "text": "8 + 6", "bucket": "Stratégie du 10" },
+        { "text": "72 − 0", "bucket": "Effet du 0, 1 ou 2" },
+        { "text": "9 + 4", "bucket": "Stratégie du 10" },
+        { "text": "33 + 2", "bucket": "Effet du 0, 1 ou 2" },
+        { "text": "7 + 8", "bucket": "Stratégie du 10" }
+      ],
+      "explanation": "Reconnaître la bonne stratégie est aussi important que de savoir calculer."
+    },
+    {
+      "id": "as-20",
+      "type": "vraiFaux",
+      "skill": "complement-10",
+      "statement": "5 + 5 = 10.",
+      "answer": true,
+      "explanation": "C'est la paire du milieu, la plus facile à retenir."
+    }
+  ]
+}

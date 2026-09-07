@@ -1,0 +1,201 @@
+{
+  "schemaVersion": 1,
+  "id": "ma-representation-nombre-01",
+  "title": "La représentation d'un nombre (u, d, c)",
+  "subject": "mathematique",
+  "topic": "numeration",
+  "grade": 4,
+  "difficulty": 2,
+  "estimatedMinutes": 5,
+  "source": "Plan de la semaine du 7 au 18 septembre 2026 · Cartable d'étude — Les nombres naturels",
+  "description": "Un même nombre s'écrit de plusieurs façons : 180 = 18d = 180u = 1c + 8d.",
+  "tags": [
+    "numération",
+    "valeur de position",
+    "unités",
+    "dizaines",
+    "centaines",
+    "rentrée"
+  ],
+  "defaultEnabled": true,
+  "items": [
+    {
+      "id": "rep-01",
+      "type": "qcm",
+      "skill": "notation-udc",
+      "question": "Que veut dire « d » quand on écrit 18d ?",
+      "choices": [
+        "dizaines",
+        "décimales",
+        "doubles"
+      ],
+      "answer": 0,
+      "explanation": "u = unités, d = dizaines, c = centaines, um = unités de mille."
+    },
+    {
+      "id": "rep-02",
+      "type": "qcm",
+      "skill": "representations-equivalentes",
+      "question": "Combien de dizaines y a-t-il dans 180 ?",
+      "choices": [
+        "8 dizaines",
+        "18 dizaines",
+        "180 dizaines"
+      ],
+      "answer": 1,
+      "explanation": "180 = 18d. Attention : le chiffre des dizaines est 8, mais le NOMBRE de dizaines est 18."
+    },
+    {
+      "id": "rep-03",
+      "type": "qcm",
+      "skill": "chiffre-vs-nombre",
+      "question": "Dans 180, quel est le CHIFFRE des dizaines ?",
+      "choices": [
+        "1",
+        "8",
+        "18"
+      ],
+      "answer": 1,
+      "explanation": "Le chiffre des dizaines est 8. Le nombre de dizaines, lui, est 18. C'est le piège le plus fréquent."
+    },
+    {
+      "id": "rep-04",
+      "type": "association",
+      "skill": "representations-equivalentes",
+      "instruction": "Associe chaque nombre au nombre de dizaines qu'il contient.",
+      "pairs": [
+        {
+          "left": "250",
+          "right": "25 dizaines"
+        },
+        {
+          "left": "340",
+          "right": "34 dizaines"
+        },
+        {
+          "left": "70",
+          "right": "7 dizaines"
+        },
+        {
+          "left": "1 200",
+          "right": "120 dizaines"
+        }
+      ],
+      "explanation": "Pour trouver le nombre de dizaines, on cache le chiffre des unités."
+    },
+    {
+      "id": "rep-05",
+      "type": "calcul",
+      "skill": "representations-equivalentes",
+      "question": "Combien d'unités y a-t-il dans 180 ?",
+      "answer": 180,
+      "unit": "u",
+      "explanation": "180 = 180u. Tout nombre vaut son propre nombre d'unités."
+    },
+    {
+      "id": "rep-06",
+      "type": "calcul",
+      "skill": "decomposer-udc",
+      "question": "1c + 8d = ? Écris le nombre.",
+      "answer": 180,
+      "explanation": "1 centaine = 100, 8 dizaines = 80. 100 + 80 = 180."
+    },
+    {
+      "id": "rep-07",
+      "type": "calcul",
+      "skill": "decomposer-udc",
+      "question": "3c + 4d + 6u = ? Écris le nombre.",
+      "answer": 346
+    },
+    {
+      "id": "rep-08",
+      "type": "calcul",
+      "skill": "decomposer-udc",
+      "question": "2c + 5u = ? Attention, il n'y a pas de dizaines.",
+      "answer": 205,
+      "explanation": "200 + 0 dizaine + 5 = 205. Le 0 garde la place des dizaines."
+    },
+    {
+      "id": "rep-09",
+      "type": "classement",
+      "skill": "representations-equivalentes",
+      "instruction": "Ces écritures valent-elles 240, ou non ?",
+      "buckets": [
+        "Ça vaut 240",
+        "Ça ne vaut pas 240"
+      ],
+      "tokens": [
+        {
+          "text": "24d",
+          "bucket": "Ça vaut 240"
+        },
+        {
+          "text": "2c + 4d",
+          "bucket": "Ça vaut 240"
+        },
+        {
+          "text": "240u",
+          "bucket": "Ça vaut 240"
+        },
+        {
+          "text": "4d + 2c",
+          "bucket": "Ça vaut 240"
+        },
+        {
+          "text": "2d + 4u",
+          "bucket": "Ça ne vaut pas 240"
+        },
+        {
+          "text": "24u",
+          "bucket": "Ça ne vaut pas 240"
+        }
+      ],
+      "explanation": "L'ordre n'a pas d'importance : 4d + 2c vaut aussi 240. Mais 2d + 4u = 24, pas 240."
+    },
+    {
+      "id": "rep-10",
+      "type": "calcul",
+      "skill": "representations-equivalentes",
+      "question": "Combien de centaines y a-t-il dans 700 ?",
+      "answer": 7,
+      "unit": "c"
+    },
+    {
+      "id": "rep-11",
+      "type": "texteATrous",
+      "skill": "notation-udc",
+      "prompt": "Complète : 560 = ___ dizaines",
+      "answers": [
+        "56"
+      ],
+      "hint": "Cache le chiffre des unités.",
+      "explanation": "560 = 56d."
+    },
+    {
+      "id": "rep-12",
+      "type": "ordre",
+      "skill": "comparer-representations",
+      "instruction": "Place ces nombres du plus petit au plus grand.",
+      "sequence": [
+        "4d",
+        "1c + 9d + 5u",
+        "2c",
+        "35d"
+      ],
+      "explanation": "4d = 40 · 1c + 9d + 5u = 195 · 2c = 200 · 35d = 350. Il faut tout convertir en unités avant de comparer."
+    },
+    {
+      "id": "rep-13",
+      "type": "qcm",
+      "skill": "chiffre-vs-nombre",
+      "question": "Dans 4 507, quel est le nombre de centaines ?",
+      "choices": [
+        "5 centaines",
+        "45 centaines",
+        "450 centaines"
+      ],
+      "answer": 1,
+      "explanation": "On cache les dizaines et les unités : il reste 45. Le CHIFFRE des centaines est 5, mais le NOMBRE de centaines est 45."
+    }
+  ]
+}
