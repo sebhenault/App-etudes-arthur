@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "id": "ma-denombrement-01",
+  "title": "Le dénombrement, les groupements et la valeur de position",
+  "subject": "mathematique",
+  "topic": "numeration",
+  "grade": 4,
+  "difficulty": 2,
+  "estimatedMinutes": 5,
+  "source": "Plan des semaines du 21 septembre au 2 octobre 2026 · Aide-mémoire Matcha — Le dénombrement et les groupements · La valeur de position",
+  "description": "Compter par bonds, grouper par 10 pour dénombrer, et lire la valeur de chaque chiffre.",
+  "tags": ["dénombrement", "groupements", "valeur de position", "compter par bonds"],
+  "defaultEnabled": true,
+  "items": [
+    {
+      "id": "den-01",
+      "type": "qcm",
+      "skill": "groupements-10",
+      "question": "Pourquoi groupe-t-on les objets par paquets de 10 pour les compter ?",
+      "choices": [
+        "Parce que c'est plus rapide et qu'on se trompe moins",
+        "Parce que 10 est le plus grand chiffre",
+        "Parce qu'on ne peut pas compter au-delà de 10"
+      ],
+      "answer": 0,
+      "explanation": "Grouper par 10, c'est la base de notre système de numération : 10 unités font 1 dizaine."
+    },
+    { "id": "den-02", "type": "calcul", "skill": "compter-par-bonds", "question": "Continue la suite : 5, 10, 15, 20, ___", "answer": 25, "timeTargetMs": 6000 },
+    { "id": "den-03", "type": "calcul", "skill": "compter-par-bonds", "question": "Compte par bonds de 2 : 14, 16, 18, ___", "answer": 20, "timeTargetMs": 6000 },
+    { "id": "den-04", "type": "calcul", "skill": "compter-par-bonds", "question": "Compte par bonds de 100 : 300, 400, 500, ___", "answer": 600, "timeTargetMs": 6000 },
+    { "id": "den-05", "type": "calcul", "skill": "compter-par-bonds", "question": "Compte par bonds de 25 : 25, 50, 75, ___", "answer": 100, "timeTargetMs": 8000 },
+    {
+      "id": "den-06",
+      "type": "calcul",
+      "skill": "groupements-10",
+      "question": "Arthur a 7 paquets de 10 billes et 4 billes seules. Combien a-t-il de billes ?",
+      "answer": 74,
+      "unit": "billes",
+      "explanation": "7 dizaines + 4 unités = 74."
+    },
+    {
+      "id": "den-07",
+      "type": "calcul",
+      "skill": "groupements-10",
+      "question": "Combien de paquets de 10 complets peut-on faire avec 86 jetons ?",
+      "answer": 8,
+      "unit": "paquets",
+      "explanation": "86 = 8 dizaines et 6 unités. Il reste 6 jetons hors des paquets."
+    },
+    {
+      "id": "den-08",
+      "type": "qcm",
+      "skill": "valeur-position",
+      "question": "Dans 5 273, quelle est la valeur du chiffre 2 ?",
+      "choices": ["200", "2", "20"],
+      "answer": 0,
+      "explanation": "Le 2 occupe la position des centaines : il vaut 2 × 100 = 200."
+    },
+    {
+      "id": "den-09",
+      "type": "qcm",
+      "skill": "valeur-position",
+      "question": "Dans 4 089, quelle est la valeur du chiffre 8 ?",
+      "choices": ["80", "8", "800"],
+      "answer": 0,
+      "explanation": "Le 8 est à la position des dizaines : 8 × 10 = 80."
+    },
+    {
+      "id": "den-10",
+      "type": "association",
+      "skill": "valeur-position",
+      "instruction": "Dans le nombre 3 641, quelle est la valeur de chaque chiffre ?",
+      "pairs": [
+        { "left": "le 3", "right": "3 000" },
+        { "left": "le 6", "right": "600" },
+        { "left": "le 4", "right": "40" },
+        { "left": "le 1", "right": "1" }
+      ],
+      "explanation": "Chaque position vaut dix fois plus que celle de droite."
+    },
+    {
+      "id": "den-11",
+      "type": "classement",
+      "skill": "compter-par-bonds",
+      "instruction": "Cette suite compte par bonds de combien ?",
+      "buckets": ["Bonds de 5", "Bonds de 10"],
+      "tokens": [
+        { "text": "20, 25, 30, 35", "bucket": "Bonds de 5" },
+        { "text": "40, 50, 60, 70", "bucket": "Bonds de 10" },
+        { "text": "5, 10, 15, 20", "bucket": "Bonds de 5" },
+        { "text": "100, 110, 120, 130", "bucket": "Bonds de 10" }
+      ]
+    },
+    {
+      "id": "den-12",
+      "type": "texteATrous",
+      "skill": "valeur-position",
+      "prompt": "Dans 6 502, le chiffre des unités de mille est ___",
+      "answers": ["6"],
+      "explanation": "De droite à gauche : 2 unités, 0 dizaine, 5 centaines, 6 unités de mille."
+    },
+    {
+      "id": "den-13",
+      "type": "vraiFaux",
+      "skill": "groupements-10",
+      "statement": "10 dizaines font 1 centaine.",
+      "answer": true,
+      "explanation": "10 × 10 = 100. On regroupe toujours par paquets de dix."
+    }
+  ]
+}

@@ -22,6 +22,16 @@
           "emoji": "🏷️"
         },
         {
+          "key": "determinant",
+          "label": "Le déterminant",
+          "emoji": "🔖"
+        },
+        {
+          "key": "verbe",
+          "label": "Le verbe",
+          "emoji": "🏃"
+        },
+        {
           "key": "accords",
           "label": "Les accords",
           "emoji": "🧩"

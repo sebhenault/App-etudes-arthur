@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "id": "fr-determinant-01",
+  "title": "L'accord du déterminant",
+  "subject": "francais",
+  "topic": "determinant",
+  "grade": 4,
+  "difficulty": 2,
+  "estimatedMinutes": 5,
+  "source": "Plan des semaines du 21 septembre au 2 octobre 2026 · Cartable Étude français — L'accord du déterminant (caractéristiques)",
+  "description": "Reconnaître le déterminant, ses caractéristiques, et l'accorder en genre et en nombre avec le nom.",
+  "tags": ["déterminant", "accord", "genre", "nombre", "groupe du nom"],
+  "defaultEnabled": true,
+  "items": [
+    {
+      "id": "det-01",
+      "type": "qcm",
+      "skill": "determinant-caracteristiques",
+      "question": "Où se place le déterminant ?",
+      "choices": ["Devant le nom", "Après le verbe", "À la fin de la phrase"],
+      "answer": 0,
+      "explanation": "Le déterminant annonce le nom : il se place juste devant lui. Ex. : **la** maison, **des** amis."
+    },
+    {
+      "id": "det-02",
+      "type": "qcm",
+      "skill": "determinant-reconnaitre",
+      "question": "Dans « Les élèves rangent leurs cahiers », quels mots sont des déterminants ?",
+      "choices": ["Les et leurs", "élèves et cahiers", "rangent seulement"],
+      "answer": 0,
+      "explanation": "« Les » annonce « élèves », « leurs » annonce « cahiers ». Ce sont les deux déterminants."
+    },
+    {
+      "id": "det-03",
+      "type": "classement",
+      "skill": "determinant-reconnaitre",
+      "instruction": "Est-ce un déterminant, oui ou non ?",
+      "buckets": ["Déterminant", "Pas un déterminant"],
+      "tokens": [
+        { "text": "une", "bucket": "Déterminant" },
+        { "text": "grande", "bucket": "Pas un déterminant" },
+        { "text": "mes", "bucket": "Déterminant" },
+        { "text": "manger", "bucket": "Pas un déterminant" },
+        { "text": "cette", "bucket": "Déterminant" },
+        { "text": "vite", "bucket": "Pas un déterminant" }
+      ],
+      "explanation": "un, une, des, le, la, les, mon, mes, ce, cette, ces, deux, plusieurs… sont des déterminants."
+    },
+    {
+      "id": "det-04",
+      "type": "vraiFaux",
+      "skill": "determinant-caracteristiques",
+      "statement": "Le déterminant reçoit le genre et le nombre du nom qu'il accompagne.",
+      "answer": true,
+      "explanation": "C'est le nom qui commande. « une tuque » (féminin singulier), « des tuques » (féminin pluriel)."
+    },
+    {
+      "id": "det-05",
+      "type": "qcm",
+      "skill": "determinant-accord",
+      "question": "Pourquoi « un maisons » est-il incorrect ?",
+      "choices": [
+        "« un » est singulier alors que « maisons » est pluriel",
+        "« un » se place toujours après le nom",
+        "« maisons » n'est pas un nom"
+      ],
+      "answer": 0,
+      "explanation": "Le déterminant doit avoir le même nombre que le nom : **une** maison ou **des** maisons."
+    },
+    {
+      "id": "det-06",
+      "type": "classement",
+      "skill": "determinant-genre",
+      "instruction": "Ce groupe du nom est-il masculin ou féminin ? Le déterminant te le dit.",
+      "buckets": ["Masculin", "Féminin"],
+      "tokens": [
+        { "text": "un ballon", "bucket": "Masculin" },
+        { "text": "une tuque", "bucket": "Féminin" },
+        { "text": "le chandail", "bucket": "Masculin" },
+        { "text": "la mitaine", "bucket": "Féminin" },
+        { "text": "mon crayon", "bucket": "Masculin" },
+        { "text": "ma règle", "bucket": "Féminin" }
+      ]
+    },
+    {
+      "id": "det-07",
+      "type": "classement",
+      "skill": "determinant-nombre",
+      "instruction": "Singulier ou pluriel ? Regarde le déterminant.",
+      "buckets": ["Singulier", "Pluriel"],
+      "tokens": [
+        { "text": "cette journée", "bucket": "Singulier" },
+        { "text": "ces journées", "bucket": "Pluriel" },
+        { "text": "plusieurs amis", "bucket": "Pluriel" },
+        { "text": "ton sac", "bucket": "Singulier" },
+        { "text": "trois pommes", "bucket": "Pluriel" },
+        { "text": "l'école", "bucket": "Singulier" }
+      ]
+    },
+    {
+      "id": "det-08",
+      "type": "texteATrous",
+      "skill": "determinant-accord",
+      "prompt": "Complète avec « un » ou « une » : J'ai reçu ___ lettre ce matin.",
+      "answers": ["une"],
+      "hint": "« lettre » est féminin.",
+      "explanation": "« une lettre » : le déterminant prend le féminin du nom."
+    },
+    {
+      "id": "det-09",
+      "type": "texteATrous",
+      "skill": "determinant-accord",
+      "prompt": "Complète avec « le », « la » ou « les » : ___ enfants jouent dehors.",
+      "answers": ["les"],
+      "explanation": "« enfants » est au pluriel, donc le déterminant aussi : « les enfants »."
+    },
+    {
+      "id": "det-10",
+      "type": "association",
+      "skill": "determinant-accord",
+      "instruction": "Associe chaque nom au déterminant qui convient.",
+      "pairs": [
+        { "left": "___ avion", "right": "un" },
+        { "left": "___ étoile", "right": "une" },
+        { "left": "___ souliers", "right": "des" },
+        { "left": "___ eau froide", "right": "de l'" }
+      ]
+    },
+    {
+      "id": "det-11",
+      "type": "qcm",
+      "skill": "determinant-truc",
+      "question": "Quel truc permet de vérifier qu'un mot est bien un déterminant ?",
+      "choices": [
+        "On peut le remplacer par un autre déterminant (un, le, mon…)",
+        "On peut l'effacer sans rien changer",
+        "Il se termine toujours par -s"
+      ],
+      "answer": 0,
+      "explanation": "« la maison » → « une maison », « ma maison ». Si le remplacement fonctionne, c'est un déterminant. On ne peut PAS l'effacer."
+    },
+    {
+      "id": "det-12",
+      "type": "qcm",
+      "skill": "determinant-accord",
+      "question": "Quel groupe du nom est correctement accordé ?",
+      "choices": ["ces beaux chevaux", "ce beaux chevaux", "ces beau cheval"],
+      "answer": 0,
+      "explanation": "Tout le groupe s'accorde au pluriel : ces (déterminant) + beaux (adjectif) + chevaux (nom)."
+    },
+    {
+      "id": "det-13",
+      "type": "texteATrous",
+      "skill": "determinant-accord",
+      "prompt": "Mets au pluriel : « mon ami » → ___ amis",
+      "answers": ["mes"],
+      "explanation": "mon → mes au pluriel."
+    }
+  ]
+}

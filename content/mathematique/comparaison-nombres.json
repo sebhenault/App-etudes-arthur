@@ -1,0 +1,203 @@
+{
+  "schemaVersion": 1,
+  "id": "ma-comparaison-01",
+  "title": "La comparaison des nombres naturels",
+  "subject": "mathematique",
+  "topic": "numeration",
+  "grade": 4,
+  "difficulty": 2,
+  "estimatedMinutes": 5,
+  "source": "Plan des semaines du 21 septembre au 2 octobre 2026 · Aide-mémoire Matcha — La comparaison des nombres naturels",
+  "description": "Comparer deux nombres avec <, > ou =, et ordonner une série du plus petit au plus grand.",
+  "tags": [
+    "comparaison",
+    "ordre croissant",
+    "ordre décroissant",
+    "numération"
+  ],
+  "defaultEnabled": true,
+  "items": [
+    {
+      "id": "cmp-01",
+      "type": "qcm",
+      "skill": "methode-comparaison",
+      "question": "Pour comparer deux nombres, par quoi commence-t-on ?",
+      "choices": [
+        "On compare le nombre de chiffres, puis on regarde de gauche à droite",
+        "On compare le dernier chiffre",
+        "On additionne tous les chiffres"
+      ],
+      "answer": 0,
+      "explanation": "Le nombre qui a le plus de chiffres est le plus grand. À égalité de chiffres, on compare position par position, en partant de la gauche."
+    },
+    {
+      "id": "cmp-02",
+      "type": "qcm",
+      "skill": "signes-comparaison",
+      "question": "Quel signe complète : 4 507 ___ 4 570 ?",
+      "choices": [
+        "<",
+        ">",
+        "="
+      ],
+      "answer": 0,
+      "explanation": "Même nombre de chiffres. Milliers égaux (4), centaines égales (5), puis 0 dizaine contre 7 dizaines : 4 507 est plus petit."
+    },
+    {
+      "id": "cmp-03",
+      "type": "qcm",
+      "skill": "signes-comparaison",
+      "question": "Quel signe complète : 8 200 ___ 990 ?",
+      "choices": [
+        ">",
+        "<",
+        "="
+      ],
+      "answer": 0,
+      "explanation": "8 200 a quatre chiffres, 990 en a trois : le plus long gagne."
+    },
+    {
+      "id": "cmp-04",
+      "type": "qcm",
+      "skill": "signes-comparaison",
+      "question": "Le signe « < » se lit…",
+      "choices": [
+        "est plus petit que",
+        "est plus grand que",
+        "est égal à"
+      ],
+      "answer": 0,
+      "explanation": "La pointe du signe est du côté du plus petit nombre. Truc : le signe est une bouche ouverte vers le plus grand."
+    },
+    {
+      "id": "cmp-05",
+      "type": "ordre",
+      "skill": "ordre-croissant",
+      "instruction": "Place ces nombres du plus PETIT au plus GRAND.",
+      "sequence": [
+        "980",
+        "1 208",
+        "1 280",
+        "2 108"
+      ],
+      "explanation": "980 n'a que trois chiffres. Ensuite 1 208 et 1 280 : même début, mais 0 dizaine contre 8 dizaines."
+    },
+    {
+      "id": "cmp-06",
+      "type": "ordre",
+      "skill": "ordre-decroissant",
+      "instruction": "Place ces nombres du plus GRAND au plus PETIT.",
+      "sequence": [
+        "7 400",
+        "7 040",
+        "4 700",
+        "740"
+      ],
+      "explanation": "Attention aux zéros : 7 040 est bien plus petit que 7 400."
+    },
+    {
+      "id": "cmp-07",
+      "type": "classement",
+      "skill": "comparer-seuil",
+      "instruction": "Ce nombre est-il plus petit ou plus grand que 1 000 ?",
+      "buckets": [
+        "Plus petit que 1 000",
+        "Plus grand que 1 000"
+      ],
+      "tokens": [
+        {
+          "text": "999",
+          "bucket": "Plus petit que 1 000"
+        },
+        {
+          "text": "1 001",
+          "bucket": "Plus grand que 1 000"
+        },
+        {
+          "text": "870",
+          "bucket": "Plus petit que 1 000"
+        },
+        {
+          "text": "1 500",
+          "bucket": "Plus grand que 1 000"
+        },
+        {
+          "text": "1 099",
+          "bucket": "Plus grand que 1 000"
+        },
+        {
+          "text": "99",
+          "bucket": "Plus petit que 1 000"
+        }
+      ]
+    },
+    {
+      "id": "cmp-08",
+      "type": "qcm",
+      "skill": "plus-grand-plus-petit",
+      "question": "Lequel de ces nombres est le plus grand ?",
+      "choices": [
+        "6 003",
+        "6 030",
+        "6 300"
+      ],
+      "answer": 2,
+      "explanation": "On compare les centaines : 0, 0 puis 3. C'est 6 300."
+    },
+    {
+      "id": "cmp-09",
+      "type": "qcm",
+      "skill": "plus-grand-plus-petit",
+      "question": "Lequel de ces nombres est le plus petit ?",
+      "choices": [
+        "2 999",
+        "3 001",
+        "2 909"
+      ],
+      "answer": 2,
+      "explanation": "2 909 et 2 999 commencent pareil, mais 0 dizaine est plus petit que 9 dizaines."
+    },
+    {
+      "id": "cmp-10",
+      "type": "association",
+      "skill": "signes-comparaison",
+      "instruction": "Associe chaque comparaison à ce qu'elle exprime.",
+      "pairs": [
+        {
+          "left": "345 … 354",
+          "right": "plus petit que (<)"
+        },
+        {
+          "left": "900 … 89",
+          "right": "plus grand que (>)"
+        },
+        {
+          "left": "1 200 … 1 200",
+          "right": "égal à (=)"
+        },
+        {
+          "left": "76 … 760",
+          "right": "dix fois plus petit"
+        }
+      ]
+    },
+    {
+      "id": "cmp-11",
+      "type": "texteATrous",
+      "skill": "signes-comparaison",
+      "prompt": "Écris le bon signe (< , > ou =) : 3 060 ___ 3 600",
+      "answers": [
+        "<"
+      ],
+      "explanation": "0 centaine contre 6 centaines : 3 060 est plus petit."
+    },
+    {
+      "id": "cmp-12",
+      "type": "vraiFaux",
+      "skill": "methode-comparaison",
+      "statement": "Un nombre à 4 chiffres est toujours plus grand qu'un nombre à 3 chiffres.",
+      "answer": true,
+      "explanation": "Pour des nombres naturels, oui : le plus petit nombre à 4 chiffres est 1 000, le plus grand à 3 chiffres est 999."
+    }
+  ]
+}

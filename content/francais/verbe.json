@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "id": "fr-verbe-01",
+  "title": "Le verbe : infinitif, conjugué et temps",
+  "subject": "francais",
+  "topic": "verbe",
+  "grade": 4,
+  "difficulty": 2,
+  "estimatedMinutes": 6,
+  "source": "Plan des semaines du 21 septembre au 2 octobre 2026 · Cartable Étude français — Le verbe à l'infinitif, le verbe conjugué (3e-4e), reconnaître le temps",
+  "description": "Distinguer un verbe à l'infinitif d'un verbe conjugué, et reconnaître si une phrase est au passé, au présent ou au futur.",
+  "tags": ["verbe", "infinitif", "conjugué", "passé", "présent", "futur"],
+  "defaultEnabled": true,
+  "items": [
+    {
+      "id": "vrb-01",
+      "type": "qcm",
+      "skill": "verbe-infinitif",
+      "question": "Qu'est-ce qu'un verbe à l'infinitif ?",
+      "choices": [
+        "Sa forme de base, celle qu'on trouve dans le dictionnaire",
+        "Un verbe toujours au passé",
+        "Un verbe qui a perdu son sujet"
+      ],
+      "answer": 0,
+      "explanation": "À l'infinitif, le verbe n'est pas conjugué : manger, finir, prendre, voir."
+    },
+    {
+      "id": "vrb-02",
+      "type": "classement",
+      "skill": "infinitif-ou-conjugue",
+      "instruction": "Ce verbe est-il à l'infinitif ou conjugué ?",
+      "buckets": ["Infinitif", "Conjugué"],
+      "tokens": [
+        { "text": "chanter", "bucket": "Infinitif" },
+        { "text": "nous chantons", "bucket": "Conjugué" },
+        { "text": "finir", "bucket": "Infinitif" },
+        { "text": "elles finissent", "bucket": "Conjugué" },
+        { "text": "prendre", "bucket": "Infinitif" },
+        { "text": "tu prends", "bucket": "Conjugué" }
+      ],
+      "explanation": "Un verbe conjugué change selon la personne (je, tu, il…). L'infinitif, lui, ne change jamais."
+    },
+    {
+      "id": "vrb-03",
+      "type": "qcm",
+      "skill": "verbe-infinitif",
+      "question": "Dans « Arthur veut patiner ce soir », quel verbe est à l'infinitif ?",
+      "choices": ["patiner", "veut", "Arthur"],
+      "answer": 0,
+      "explanation": "Quand deux verbes se suivent, le deuxième reste à l'infinitif. « veut » est conjugué, « patiner » ne l'est pas."
+    },
+    {
+      "id": "vrb-04",
+      "type": "texteATrous",
+      "skill": "trouver-infinitif",
+      "prompt": "Quel est l'infinitif de « nous prenons » ? ___",
+      "answers": ["prendre"],
+      "explanation": "On cherche la forme du dictionnaire : prendre."
+    },
+    {
+      "id": "vrb-05",
+      "type": "texteATrous",
+      "skill": "trouver-infinitif",
+      "prompt": "Quel est l'infinitif de « ils finissaient » ? ___",
+      "answers": ["finir"],
+      "explanation": "finissaient vient de finir."
+    },
+    {
+      "id": "vrb-06",
+      "type": "qcm",
+      "skill": "verbe-conjugue",
+      "question": "Comment reconnaît-on un verbe conjugué dans une phrase ?",
+      "choices": [
+        "Il change si on change le sujet (je, tu, nous…)",
+        "Il est toujours le premier mot",
+        "Il commence par une majuscule"
+      ],
+      "answer": 0,
+      "explanation": "Truc : remplace le sujet par « nous ». Si le mot change, c'est le verbe conjugué."
+    },
+    {
+      "id": "vrb-07",
+      "type": "qcm",
+      "skill": "temps-futur",
+      "question": "« Je recevrai un cadeau. » Cette phrase est au…",
+      "choices": ["futur", "présent", "passé"],
+      "answer": 0,
+      "explanation": "L'action n'a pas encore eu lieu : c'est le futur."
+    },
+    {
+      "id": "vrb-08",
+      "type": "classement",
+      "skill": "temps-passe-present-futur",
+      "instruction": "Cette phrase est au passé, au présent ou au futur ?",
+      "buckets": ["Passé", "Présent", "Futur"],
+      "tokens": [
+        { "text": "Hier, j'ai joué dehors.", "bucket": "Passé" },
+        { "text": "Aujourd'hui, je joue dehors.", "bucket": "Présent" },
+        { "text": "Demain, je jouerai dehors.", "bucket": "Futur" },
+        { "text": "L'an dernier, nous allions à la mer.", "bucket": "Passé" },
+        { "text": "En ce moment, il pleut.", "bucket": "Présent" },
+        { "text": "La semaine prochaine, il neigera.", "bucket": "Futur" }
+      ],
+      "explanation": "Les mots comme hier, aujourd'hui, demain sont des indices précieux."
+    },
+    {
+      "id": "vrb-09",
+      "type": "association",
+      "skill": "indices-temps",
+      "instruction": "Associe chaque indice de temps au moment qu'il annonce.",
+      "pairs": [
+        { "left": "Hier soir", "right": "Passé" },
+        { "left": "En ce moment", "right": "Présent" },
+        { "left": "Dans deux jours", "right": "Futur" },
+        { "left": "Il y a longtemps", "right": "Autrefois, donc passé" }
+      ]
+    },
+    {
+      "id": "vrb-10",
+      "type": "qcm",
+      "skill": "temps-passe-present-futur",
+      "question": "« Nous mangerons de la tire sur la neige. » Cette phrase est au…",
+      "choices": ["futur", "présent", "passé"],
+      "answer": 0,
+      "explanation": "La terminaison -ons du futur : mangerons. L'action reste à venir."
+    },
+    {
+      "id": "vrb-11",
+      "type": "qcm",
+      "skill": "temps-passe-present-futur",
+      "question": "« Le castor construisait un barrage. » Cette phrase est au…",
+      "choices": ["passé", "présent", "futur"],
+      "answer": 0,
+      "explanation": "« construisait » raconte une action terminée : c'est le passé."
+    },
+    {
+      "id": "vrb-12",
+      "type": "texteATrous",
+      "skill": "verbe-conjugue",
+      "prompt": "Trouve le verbe conjugué : « Les oiseaux migrent vers le sud. » → ___",
+      "answers": ["migrent"],
+      "explanation": "Remplace le sujet par « nous » : « nous migrons ». Le mot change, c'est bien le verbe conjugué."
+    },
+    {
+      "id": "vrb-13",
+      "type": "vraiFaux",
+      "skill": "infinitif-ou-conjugue",
+      "statement": "Dans « J'aime lire », le mot « lire » est conjugué.",
+      "answer": false,
+      "explanation": "« lire » est à l'infinitif. C'est « aime » qui est conjugué."
+    },
+    {
+      "id": "vrb-14",
+      "type": "classement",
+      "skill": "infinitif-terminaison",
+      "instruction": "Classe ces infinitifs selon leur terminaison.",
+      "buckets": ["en -er", "en -ir", "en -re"],
+      "tokens": [
+        { "text": "patiner", "bucket": "en -er" },
+        { "text": "grandir", "bucket": "en -ir" },
+        { "text": "descendre", "bucket": "en -re" },
+        { "text": "chanter", "bucket": "en -er" },
+        { "text": "partir", "bucket": "en -ir" },
+        { "text": "prendre", "bucket": "en -re" }
+      ],
+      "explanation": "La terminaison de l'infinitif aide à savoir comment conjuguer le verbe."
+    }
+  ]
+}

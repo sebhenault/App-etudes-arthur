@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "ma-doubles-egal10-01",
+  "title": "Les doubles et l'égal à 10",
+  "subject": "mathematique",
+  "topic": "addition-soustraction",
+  "grade": 4,
+  "difficulty": 1,
+  "estimatedMinutes": 5,
+  "source": "Plan des semaines du 21 septembre au 2 octobre 2026 · Cartable Étude mathématiques — Les doubles · Égal à 10 (Vitesse +++)",
+  "description": "Les doubles et leurs moitiés, les termes manquants, et les compléments à 10 à mémoriser pour la vitesse.",
+  "tags": ["doubles", "compléments à 10", "calcul mental", "vitesse", "terme manquant"],
+  "defaultEnabled": true,
+  "items": [
+    { "id": "dbl-01", "type": "calcul", "skill": "double", "question": "7 + 7 = ?", "answer": 14, "timeTargetMs": 5000 },
+    { "id": "dbl-02", "type": "calcul", "skill": "double", "question": "8 + 8 = ?", "answer": 16, "timeTargetMs": 5000 },
+    { "id": "dbl-03", "type": "calcul", "skill": "double", "question": "6 + 6 = ?", "answer": 12, "timeTargetMs": 5000 },
+    { "id": "dbl-04", "type": "calcul", "skill": "double", "question": "9 + 9 = ?", "answer": 18, "timeTargetMs": 5000 },
+    {
+      "id": "dbl-05",
+      "type": "association",
+      "skill": "double",
+      "instruction": "Associe chaque double à son résultat.",
+      "pairs": [
+        { "left": "4 + 4", "right": "8" },
+        { "left": "5 + 5", "right": "10" },
+        { "left": "7 + 7", "right": "14" },
+        { "left": "10 + 10", "right": "20" }
+      ],
+      "explanation": "Les doubles se retiennent par cœur : ils servent ensuite à tout le reste."
+    },
+    {
+      "id": "dbl-06",
+      "type": "calcul",
+      "skill": "moitie",
+      "question": "16 − 8 = ?",
+      "answer": 8,
+      "timeTargetMs": 6000,
+      "explanation": "Si 8 + 8 = 16, alors 16 − 8 = 8. Le double et la moitié sont deux façons de dire la même chose."
+    },
+    { "id": "dbl-07", "type": "calcul", "skill": "moitie", "question": "14 − 7 = ?", "answer": 7, "timeTargetMs": 6000 },
+    { "id": "dbl-08", "type": "calcul", "skill": "moitie", "question": "18 − 9 = ?", "answer": 9, "timeTargetMs": 6000 },
+    {
+      "id": "dbl-09",
+      "type": "calcul",
+      "skill": "terme-manquant",
+      "question": "Quel nombre manque ? ___ + 3 = 6",
+      "answer": 3,
+      "timeTargetMs": 7000,
+      "explanation": "On cherche ce qu'il faut ajouter à 3 pour faire 6 : c'est 3. C'est aussi un double !"
+    },
+    {
+      "id": "dbl-10",
+      "type": "calcul",
+      "skill": "terme-manquant",
+      "question": "Quel nombre manque ? ___ + 6 = 12",
+      "answer": 6,
+      "timeTargetMs": 7000
+    },
+    {
+      "id": "dbl-11",
+      "type": "qcm",
+      "skill": "presque-double",
+      "question": "Pour calculer 7 + 8 rapidement, la stratégie des doubles dit :",
+      "choices": [
+        "7 + 7 = 14, puis 14 + 1 = 15",
+        "7 + 8 = 7 + 7 = 14",
+        "il faut compter sur ses doigts"
+      ],
+      "answer": 0,
+      "explanation": "7 + 8, c'est presque le double de 7. On fait le double, puis on ajoute 1."
+    },
+    {
+      "id": "dbl-12",
+      "type": "calcul",
+      "skill": "presque-double",
+      "question": "Sers-toi des doubles : 6 + 7 = ?",
+      "answer": 13,
+      "hint": "6 + 6 = 12, puis il reste 1 à ajouter.",
+      "explanation": "6 + 6 = 12, puis 12 + 1 = 13."
+    },
+    { "id": "dbl-13", "type": "calcul", "skill": "egal-10", "question": "Vitesse ! 8 + ___ = 10", "answer": 2, "timeTargetMs": 4000 },
+    { "id": "dbl-14", "type": "calcul", "skill": "egal-10", "question": "Vitesse ! ___ + 4 = 10", "answer": 6, "timeTargetMs": 4000 },
+    { "id": "dbl-15", "type": "calcul", "skill": "egal-10", "question": "Vitesse ! 3 + ___ = 10", "answer": 7, "timeTargetMs": 4000 },
+    { "id": "dbl-16", "type": "calcul", "skill": "egal-10", "question": "Vitesse ! ___ + 9 = 10", "answer": 1, "timeTargetMs": 4000 },
+    { "id": "dbl-17", "type": "calcul", "skill": "egal-10", "question": "Vitesse ! 5 + ___ = 10", "answer": 5, "timeTargetMs": 4000 },
+    { "id": "dbl-18", "type": "calcul", "skill": "egal-10", "question": "Vitesse ! ___ + 2 = 10", "answer": 8, "timeTargetMs": 4000 },
+    {
+      "id": "dbl-19",
+      "type": "classement",
+      "skill": "reconnaitre-double",
+      "instruction": "Est-ce un double, ou une paire qui fait 10 ?",
+      "buckets": ["Un double", "Une paire qui fait 10"],
+      "tokens": [
+        { "text": "6 + 6", "bucket": "Un double" },
+        { "text": "3 + 7", "bucket": "Une paire qui fait 10" },
+        { "text": "9 + 9", "bucket": "Un double" },
+        { "text": "2 + 8", "bucket": "Une paire qui fait 10" },
+        { "text": "4 + 4", "bucket": "Un double" },
+        { "text": "6 + 4", "bucket": "Une paire qui fait 10" }
+      ],
+      "explanation": "Attention : 5 + 5 est les deux à la fois !"
+    },
+    {
+      "id": "dbl-20",
+      "type": "vraiFaux",
+      "skill": "double",
+      "statement": "Le double de 9 est 18.",
+      "answer": true
+    }
+  ]
+}
