@@ -12,7 +12,7 @@ import type { ContentItem, ContentPack, LecturePassage } from './types';
 export type ExercisePrompt =
   | { kind: 'qcm'; question: string; choices: string[]; answer: number }
   | { kind: 'vraiFaux'; statement: string; answer: boolean }
-  | { kind: 'texteATrous'; prompt: string; answers: string[] }
+  | { kind: 'texteATrous'; prompt: string; answers: string[]; strict: boolean }
   | { kind: 'association'; instruction: string; pairs: { left: string; right: string }[] }
   | { kind: 'ordre'; instruction: string; sequence: string[] }
   | {
@@ -91,7 +91,16 @@ function toPrompts(item: ContentItem): { suffix?: string; prompt: ExercisePrompt
     case 'vraiFaux':
       return [{ prompt: { kind: 'vraiFaux', statement: item.statement, answer: item.answer } }];
     case 'texteATrous':
-      return [{ prompt: { kind: 'texteATrous', prompt: item.prompt, answers: item.answers } }];
+      return [
+        {
+          prompt: {
+            kind: 'texteATrous',
+            prompt: item.prompt,
+            answers: item.answers,
+            strict: item.strict ?? false,
+          },
+        },
+      ];
     case 'association':
       return [{ prompt: { kind: 'association', instruction: item.instruction, pairs: item.pairs } }];
     case 'ordre':
@@ -186,6 +195,15 @@ export function normalizeText(value: string): string {
     .trim();
 }
 
+/**
+ * Normalisation pour les exercices d'orthographe : on conserve les accents.
+ * La casse et les espaces superflus restent tolérés — exiger la majuscule
+ * n'apprendrait rien sur l'orthographe du mot.
+ */
+export function normalizeSpelling(value: string): string {
+  return value.normalize('NFC').toLowerCase().replace(/\s+/g, ' ').trim();
+}
+
 const boolLabel = (v: boolean) => (v ? 'Vrai' : 'Faux');
 
 function gradeMap(
@@ -236,9 +254,10 @@ export function gradeExercise(exercise: Exercise, response: ExerciseResponse): G
     }
     case 'texteATrous': {
       const raw = response.kind === 'text' ? response.value : '';
-      const normalized = normalizeText(raw);
+      const normalise = prompt.strict ? normalizeSpelling : normalizeText;
+      const normalized = normalise(raw);
       const correct =
-        normalized.length > 0 && prompt.answers.some((a) => normalizeText(a) === normalized);
+        normalized.length > 0 && prompt.answers.some((a) => normalise(a) === normalized);
       return {
         correct,
         score: correct ? 1 : 0,

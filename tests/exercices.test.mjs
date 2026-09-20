@@ -4,6 +4,7 @@ import { test } from 'node:test';
 import {
   expectedAnswerText,
   gradeExercise,
+  normalizeSpelling,
   normalizeText,
   packToExercises,
 } from '../src/content/exercises.ts';
@@ -130,4 +131,55 @@ test('un exercice passé est faux et laisse une trace explicite', () => {
   assert.equal(result.correct, false);
   assert.equal(result.given, '(passé)');
   assert.equal(result.expected, expectedAnswerText(exercise));
+});
+
+// --- Mode strict : listes d'orthographe -------------------------------------
+
+const packOrthographe = {
+  schemaVersion: 1,
+  id: 'ortho',
+  title: 'Orthographe',
+  subject: 'francais',
+  topic: 'vocabulaire',
+  grade: 4,
+  items: [
+    {
+      id: 'o1',
+      type: 'texteATrous',
+      skill: 'regle-3',
+      prompt: 'La Terre est une ___.',
+      answers: ['planète'],
+      strict: true,
+    },
+    {
+      id: 'o2',
+      type: 'texteATrous',
+      skill: 'accord',
+      prompt: 'Les ___ sont là.',
+      answers: ['élèves'],
+    },
+  ],
+};
+
+test('normalizeSpelling garde les accents mais tolère la casse', () => {
+  assert.equal(normalizeSpelling('  Planète '), 'planète');
+  assert.notEqual(normalizeSpelling('planete'), normalizeSpelling('planète'));
+});
+
+test('en mode strict, un accent manquant est une faute', () => {
+  const exercice = packToExercises(packOrthographe)[0];
+  assert.equal(exercice.prompt.strict, true);
+  assert.equal(gradeExercise(exercice, { kind: 'text', value: 'planete' }).correct, false);
+  assert.equal(gradeExercise(exercice, { kind: 'text', value: 'planète' }).correct, true);
+});
+
+test('en mode strict, la casse reste tolérée', () => {
+  const exercice = packToExercises(packOrthographe)[0];
+  assert.equal(gradeExercise(exercice, { kind: 'text', value: 'Planète' }).correct, true);
+});
+
+test('hors mode strict, la tolérance aux accents est conservée', () => {
+  const exercice = packToExercises(packOrthographe)[1];
+  assert.equal(exercice.prompt.strict, false);
+  assert.equal(gradeExercise(exercice, { kind: 'text', value: 'eleves' }).correct, true);
 });

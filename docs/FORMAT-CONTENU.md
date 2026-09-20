@@ -80,6 +80,22 @@ Un **gabarit prêt à remplir** : [`docs/modele-pack.json`](modele-pack.json).
 La comparaison ignore la casse, les accents et la ponctuation :
 `"épuisé"` accepte `epuise`, `Épuisé`, `épuisé.`.
 
+**Orthographe exigée — `"strict": true`**
+
+```json
+{ "id": "r3-07", "type": "texteATrous", "skill": "regle-3-liste-b",
+  "prompt": "La Terre est une ___.", "answers": ["planète"],
+  "hint": "Attention à l'accent grave.", "strict": true }
+```
+
+La tolérance aux accents rend service presque partout : un enfant qui tape « eleves » a
+compris l'accord, et le lui refuser porterait sur autre chose que la notion travaillée.
+Mais sur une **liste d'orthographe à mémoriser**, elle vide l'exercice de son sens —
+`planete` serait accepté. `strict: true` exige alors le mot à la lettre près, accents
+compris. La casse reste tolérée : exiger la majuscule n'apprendrait rien sur le mot.
+
+À réserver aux packs de règles de vocabulaire et aux dictées.
+
 ### `association` — relier deux colonnes
 ```json
 { "id": "q4", "type": "association", "skill": "synonyme",

@@ -84,6 +84,15 @@ export interface TexteATrousItem extends BaseItem {
   prompt: string;
   /** Toutes les réponses acceptées (comparaison insensible à la casse et aux accents). */
   answers: string[];
+  /**
+   * Orthographe exigée à la lettre près, accents compris.
+   *
+   * La tolérance aux accents rend service presque partout — un enfant qui tape
+   * « eleves » a compris l'accord. Mais sur une liste d'orthographe à mémoriser,
+   * elle vide l'exercice de son sens : « planete » serait accepté. Les packs de
+   * règles de vocabulaire activent donc ce mode. La casse reste tolérée.
+   */
+  strict?: boolean;
 }
 
 export interface AssociationPair {

@@ -108,6 +108,9 @@ function validateItem(
       if (!isStringArray(raw.answers)) {
         errors.push(`${where} : « answers » doit contenir au moins une réponse acceptée.`);
       }
+      if (raw.strict !== undefined && typeof raw.strict !== 'boolean') {
+        errors.push(`${where} : « strict » doit être true ou false.`);
+      }
       break;
     }
     case 'association': {

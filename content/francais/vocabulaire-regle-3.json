@@ -1,0 +1,212 @@
+{
+  "schemaVersion": 1,
+  "id": "fr-vocabulaire-regle-3",
+  "title": "Vocabulaire — Règle 3 : ...[t] s'écrit ...te",
+  "subject": "francais",
+  "topic": "vocabulaire",
+  "grade": 4,
+  "difficulty": 2,
+  "estimatedMinutes": 7,
+  "source": "Cartable Étude français, 4e année version A, page 5 — Règle 3, listes A et B (codes Alloprof : uekph, vmssh)",
+  "description": "À la fin du mot, quand on entend [t], on écrit « -te ». Les 20 mots des listes A et B.",
+  "tags": ["vocabulaire", "orthographe", "règle 3", "dictée"],
+  "defaultEnabled": true,
+  "items": [
+    {
+      "id": "r3-regle",
+      "type": "qcm",
+      "skill": "regle-3-enonce",
+      "question": "Que dit la règle 3 ?",
+      "choices": [
+        "À la fin du mot, quand on entend [t], on écrit « -te »",
+        "À la fin du mot, on n'écrit jamais de « e »",
+        "Au début du mot, [t] s'écrit « th »"
+      ],
+      "answer": 0,
+      "explanation": "On ENTEND [t] à la fin → on ÉCRIT « -te ». Ex. : minu**te**, grot**te**, planè**te**."
+    },
+    {
+      "id": "r3-ecoute",
+      "type": "classement",
+      "skill": "entendre-t-final",
+      "instruction": "Entends-tu le son [t] à la fin du mot ?",
+      "buckets": ["On entend [t]", "On n'entend pas [t]"],
+      "tokens": [
+        { "text": "minute", "bucket": "On entend [t]" },
+        { "text": "chat", "bucket": "On n'entend pas [t]" },
+        { "text": "grotte", "bucket": "On entend [t]" },
+        { "text": "petit", "bucket": "On n'entend pas [t]" },
+        { "text": "juste", "bucket": "On entend [t]" },
+        { "text": "chocolat", "bucket": "On n'entend pas [t]" }
+      ],
+      "explanation": "La règle 3 ne sert que quand on ENTEND le [t]. Dans « chat » ou « petit », le t est muet : pas de « e »."
+    },
+    {
+      "id": "r3-01",
+      "type": "texteATrous",
+      "skill": "regle-3-liste-a",
+      "prompt": "Quand on est grand, on devient un ___.",
+      "answers": ["adulte"],
+      "strict": true
+    },
+    {
+      "id": "r3-02",
+      "type": "texteATrous",
+      "skill": "regle-3-liste-a",
+      "prompt": "Ma sœur est ___ de son cadeau. (féminin de « content »)",
+      "answers": ["contente"],
+      "strict": true
+    },
+    {
+      "id": "r3-03",
+      "type": "texteATrous",
+      "skill": "regle-3-liste-a",
+      "prompt": "Nous marchons sur la ___, au bord du fleuve.",
+      "answers": ["côte"],
+      "hint": "N'oublie pas l'accent circonflexe sur le o.",
+      "strict": true
+    },
+    {
+      "id": "r3-04",
+      "type": "texteATrous",
+      "skill": "regle-3-liste-a",
+      "prompt": "J'ai un ___ : est-ce vraiment la bonne réponse ?",
+      "answers": ["doute"],
+      "strict": true
+    },
+    {
+      "id": "r3-05",
+      "type": "texteATrous",
+      "skill": "regle-3-liste-a",
+      "prompt": "Les chauves-souris dorment dans la ___.",
+      "answers": ["grotte"],
+      "hint": "Deux t.",
+      "strict": true
+    },
+    {
+      "id": "r3-06",
+      "type": "texteATrous",
+      "skill": "regle-3-liste-a",
+      "prompt": "Attends une ___, j'arrive !",
+      "answers": ["minute"],
+      "strict": true
+    },
+    {
+      "id": "r3-07",
+      "type": "texteATrous",
+      "skill": "regle-3-liste-b",
+      "prompt": "La Terre est une ___.",
+      "answers": ["planète"],
+      "hint": "Attention à l'accent grave.",
+      "strict": true
+    },
+    {
+      "id": "r3-08",
+      "type": "texteATrous",
+      "skill": "regle-3-liste-b",
+      "prompt": "Attention, la ___ de mon crayon est cassée.",
+      "answers": ["pointe"],
+      "strict": true
+    },
+    {
+      "id": "r3-09",
+      "type": "texteATrous",
+      "skill": "regle-3-liste-b",
+      "prompt": "Maman va chercher un colis au bureau de ___.",
+      "answers": ["poste"],
+      "strict": true
+    },
+    {
+      "id": "r3-10",
+      "type": "texteATrous",
+      "skill": "regle-3-liste-b",
+      "prompt": "Elle a une cachette ___ que personne ne connaît.",
+      "answers": ["secrète"],
+      "hint": "Accent grave sur le deuxième e.",
+      "strict": true
+    },
+    {
+      "id": "r3-11",
+      "type": "texteATrous",
+      "skill": "regle-3-liste-b",
+      "prompt": "Je veux lire la ___ de l'histoire.",
+      "answers": ["suite"],
+      "strict": true
+    },
+    {
+      "id": "r3-12",
+      "type": "texteATrous",
+      "skill": "regle-3-liste-b",
+      "prompt": "Cette plante est encore ___, il faut l'arroser.",
+      "answers": ["vivante"],
+      "strict": true
+    },
+    {
+      "id": "r3-assoc-a",
+      "type": "association",
+      "skill": "regle-3-sens",
+      "instruction": "Associe chaque mot de la liste A à son sens.",
+      "pairs": [
+        { "left": "amusante", "right": "qui fait rire" },
+        { "left": "différente", "right": "qui n'est pas pareille" },
+        { "left": "juste", "right": "exact, sans erreur" },
+        { "left": "geste", "right": "un mouvement du corps" }
+      ]
+    },
+    {
+      "id": "r3-assoc-b",
+      "type": "association",
+      "skill": "regle-3-sens",
+      "instruction": "Associe chaque mot de la liste B à son sens.",
+      "pairs": [
+        { "left": "prête", "right": "qui a fini de se préparer" },
+        { "left": "reste", "right": "ce qui n'a pas été utilisé" },
+        { "left": "soldate", "right": "une militaire" },
+        { "left": "suivante", "right": "celle qui vient après" }
+      ]
+    },
+    {
+      "id": "r3-ortho-1",
+      "type": "qcm",
+      "skill": "regle-3-orthographe",
+      "question": "Quelle est la bonne orthographe ?",
+      "choices": ["planète", "planette", "planèt"],
+      "answer": 0,
+      "explanation": "Un seul t, un accent grave, et le « e » final de la règle 3."
+    },
+    {
+      "id": "r3-ortho-2",
+      "type": "qcm",
+      "skill": "regle-3-orthographe",
+      "question": "Quelle est la bonne orthographe ?",
+      "choices": ["grotte", "grote", "grott"],
+      "answer": 0,
+      "explanation": "Deux t, puis le « e » de la règle 3."
+    },
+    {
+      "id": "r3-ortho-3",
+      "type": "qcm",
+      "skill": "regle-3-orthographe",
+      "question": "Quelle est la bonne orthographe ?",
+      "choices": ["soldate", "soldatte", "soldat"],
+      "answer": 0,
+      "explanation": "« soldate » est le féminin de « soldat » : on entend le [t], donc on ajoute « -e »."
+    },
+    {
+      "id": "r3-alpha",
+      "type": "ordre",
+      "skill": "ordre-alphabetique",
+      "instruction": "Place ces mots de la liste A en ordre alphabétique.",
+      "sequence": ["adulte", "amusante", "contente", "côte"],
+      "explanation": "On compare lettre par lettre : a-d avant a-m ; c-o-n avant c-ô-t."
+    },
+    {
+      "id": "r3-vf",
+      "type": "vraiFaux",
+      "skill": "regle-3-enonce",
+      "statement": "Dans le mot « chat », il faut ajouter un « e » à la fin à cause de la règle 3.",
+      "answer": false,
+      "explanation": "Non : dans « chat », on n'entend pas le [t]. La règle 3 ne s'applique que si on l'entend."
+    }
+  ]
+}
