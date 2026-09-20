@@ -2,7 +2,7 @@
  * FICHIER GÉNÉRÉ AUTOMATIQUEMENT — NE PAS MODIFIER À LA MAIN.
  *
  * Source : dossier `content/`. Régénérer avec `npm run content:build`.
- * Généré à partir de 30 pack(s).
+ * Généré à partir de 31 pack(s).
  */
 
 import type { ContentManifest, ContentPack } from './types';
@@ -20,24 +20,25 @@ import pack8_fr_nom_01 from '../../content/francais/nom.json';
 import pack9_fr_phrase_01 from '../../content/francais/phrase.json';
 import pack10_fr_verbe_01 from '../../content/francais/verbe.json';
 import pack11_fr_vocabulaire_regle_3 from '../../content/francais/vocabulaire-regle-3.json';
-import pack12_fr_vocabulaire_regle_4 from '../../content/francais/vocabulaire-regle-4.json';
-import pack13_fr_vocabulaire_01 from '../../content/francais/vocabulaire.json';
-import pack14_ma_addition_soustraction_01 from '../../content/mathematique/addition-soustraction.json';
-import pack15_ma_comparaison_01 from '../../content/mathematique/comparaison-nombres.json';
-import pack16_ma_denombrement_01 from '../../content/mathematique/denombrement.json';
-import pack17_ma_division_01 from '../../content/mathematique/division.json';
-import pack18_ma_doubles_egal10_01 from '../../content/mathematique/doubles-egal-10.json';
-import pack19_ma_fractions_01 from '../../content/mathematique/fractions.json';
-import pack20_ma_geometrie_01 from '../../content/mathematique/geometrie.json';
-import pack21_ma_mesures_01 from '../../content/mathematique/mesures.json';
-import pack22_ma_multiplication_01 from '../../content/mathematique/multiplication.json';
-import pack23_ma_numeration_01 from '../../content/mathematique/numeration.json';
-import pack24_ma_problemes_01 from '../../content/mathematique/problemes.json';
-import pack25_ma_representation_nombre_01 from '../../content/mathematique/representation-nombre.json';
-import pack26_sc_matiere_energie_01 from '../../content/science/matiere-energie.json';
-import pack27_sc_vivant_01 from '../../content/science/vivant.json';
-import pack28_us_nouvelle_france_01 from '../../content/univers-social/nouvelle-france.json';
-import pack29_us_treize_colonies_01 from '../../content/univers-social/treize-colonies.json';
+import pack12_fr_vocabulaire_regle_4_b from '../../content/francais/vocabulaire-regle-4-b.json';
+import pack13_fr_vocabulaire_regle_4 from '../../content/francais/vocabulaire-regle-4.json';
+import pack14_fr_vocabulaire_01 from '../../content/francais/vocabulaire.json';
+import pack15_ma_addition_soustraction_01 from '../../content/mathematique/addition-soustraction.json';
+import pack16_ma_comparaison_01 from '../../content/mathematique/comparaison-nombres.json';
+import pack17_ma_denombrement_01 from '../../content/mathematique/denombrement.json';
+import pack18_ma_division_01 from '../../content/mathematique/division.json';
+import pack19_ma_doubles_egal10_01 from '../../content/mathematique/doubles-egal-10.json';
+import pack20_ma_fractions_01 from '../../content/mathematique/fractions.json';
+import pack21_ma_geometrie_01 from '../../content/mathematique/geometrie.json';
+import pack22_ma_mesures_01 from '../../content/mathematique/mesures.json';
+import pack23_ma_multiplication_01 from '../../content/mathematique/multiplication.json';
+import pack24_ma_numeration_01 from '../../content/mathematique/numeration.json';
+import pack25_ma_problemes_01 from '../../content/mathematique/problemes.json';
+import pack26_ma_representation_nombre_01 from '../../content/mathematique/representation-nombre.json';
+import pack27_sc_matiere_energie_01 from '../../content/science/matiere-energie.json';
+import pack28_sc_vivant_01 from '../../content/science/vivant.json';
+import pack29_us_nouvelle_france_01 from '../../content/univers-social/nouvelle-france.json';
+import pack30_us_treize_colonies_01 from '../../content/univers-social/treize-colonies.json';
 
 export const bundledManifest = manifestJson as unknown as ContentManifest;
 
@@ -55,22 +56,23 @@ export const bundledPacks: ContentPack[] = [
   pack9_fr_phrase_01 as unknown as ContentPack, // content/francais/phrase.json (12 items)
   pack10_fr_verbe_01 as unknown as ContentPack, // content/francais/verbe.json (14 items)
   pack11_fr_vocabulaire_regle_3 as unknown as ContentPack, // content/francais/vocabulaire-regle-3.json (21 items)
-  pack12_fr_vocabulaire_regle_4 as unknown as ContentPack, // content/francais/vocabulaire-regle-4.json (16 items)
-  pack13_fr_vocabulaire_01 as unknown as ContentPack, // content/francais/vocabulaire.json (10 items)
-  pack14_ma_addition_soustraction_01 as unknown as ContentPack, // content/mathematique/addition-soustraction.json (20 items)
-  pack15_ma_comparaison_01 as unknown as ContentPack, // content/mathematique/comparaison-nombres.json (12 items)
-  pack16_ma_denombrement_01 as unknown as ContentPack, // content/mathematique/denombrement.json (13 items)
-  pack17_ma_division_01 as unknown as ContentPack, // content/mathematique/division.json (10 items)
-  pack18_ma_doubles_egal10_01 as unknown as ContentPack, // content/mathematique/doubles-egal-10.json (20 items)
-  pack19_ma_fractions_01 as unknown as ContentPack, // content/mathematique/fractions.json (11 items)
-  pack20_ma_geometrie_01 as unknown as ContentPack, // content/mathematique/geometrie.json (8 items)
-  pack21_ma_mesures_01 as unknown as ContentPack, // content/mathematique/mesures.json (10 items)
-  pack22_ma_multiplication_01 as unknown as ContentPack, // content/mathematique/multiplication.json (12 items)
-  pack23_ma_numeration_01 as unknown as ContentPack, // content/mathematique/numeration.json (10 items)
-  pack24_ma_problemes_01 as unknown as ContentPack, // content/mathematique/problemes.json (10 items)
-  pack25_ma_representation_nombre_01 as unknown as ContentPack, // content/mathematique/representation-nombre.json (13 items)
-  pack26_sc_matiere_energie_01 as unknown as ContentPack, // content/science/matiere-energie.json (8 items)
-  pack27_sc_vivant_01 as unknown as ContentPack, // content/science/vivant.json (8 items)
-  pack28_us_nouvelle_france_01 as unknown as ContentPack, // content/univers-social/nouvelle-france.json (9 items)
-  pack29_us_treize_colonies_01 as unknown as ContentPack, // content/univers-social/treize-colonies.json (6 items)
+  pack12_fr_vocabulaire_regle_4_b as unknown as ContentPack, // content/francais/vocabulaire-regle-4-b.json (15 items)
+  pack13_fr_vocabulaire_regle_4 as unknown as ContentPack, // content/francais/vocabulaire-regle-4.json (16 items)
+  pack14_fr_vocabulaire_01 as unknown as ContentPack, // content/francais/vocabulaire.json (10 items)
+  pack15_ma_addition_soustraction_01 as unknown as ContentPack, // content/mathematique/addition-soustraction.json (20 items)
+  pack16_ma_comparaison_01 as unknown as ContentPack, // content/mathematique/comparaison-nombres.json (12 items)
+  pack17_ma_denombrement_01 as unknown as ContentPack, // content/mathematique/denombrement.json (13 items)
+  pack18_ma_division_01 as unknown as ContentPack, // content/mathematique/division.json (10 items)
+  pack19_ma_doubles_egal10_01 as unknown as ContentPack, // content/mathematique/doubles-egal-10.json (20 items)
+  pack20_ma_fractions_01 as unknown as ContentPack, // content/mathematique/fractions.json (11 items)
+  pack21_ma_geometrie_01 as unknown as ContentPack, // content/mathematique/geometrie.json (8 items)
+  pack22_ma_mesures_01 as unknown as ContentPack, // content/mathematique/mesures.json (10 items)
+  pack23_ma_multiplication_01 as unknown as ContentPack, // content/mathematique/multiplication.json (12 items)
+  pack24_ma_numeration_01 as unknown as ContentPack, // content/mathematique/numeration.json (10 items)
+  pack25_ma_problemes_01 as unknown as ContentPack, // content/mathematique/problemes.json (10 items)
+  pack26_ma_representation_nombre_01 as unknown as ContentPack, // content/mathematique/representation-nombre.json (13 items)
+  pack27_sc_matiere_energie_01 as unknown as ContentPack, // content/science/matiere-energie.json (8 items)
+  pack28_sc_vivant_01 as unknown as ContentPack, // content/science/vivant.json (8 items)
+  pack29_us_nouvelle_france_01 as unknown as ContentPack, // content/univers-social/nouvelle-france.json (9 items)
+  pack30_us_treize_colonies_01 as unknown as ContentPack, // content/univers-social/treize-colonies.json (6 items)
 ];

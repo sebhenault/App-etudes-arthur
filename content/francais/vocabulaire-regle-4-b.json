@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "id": "fr-vocabulaire-regle-4-b",
+  "title": "Vocabulaire — Règle 4, liste B : [k]... s'écrit c...",
+  "subject": "francais",
+  "topic": "vocabulaire",
+  "grade": 4,
+  "difficulty": 2,
+  "estimatedMinutes": 6,
+  "source": "Cartable Étude français, 4e année version A, page 6 — Règle 4, liste B (code Alloprof : jzq2w)",
+  "description": "Même règle que la liste A : au début du mot, [k] s'écrit « c ». Les 10 mots de la liste B.",
+  "tags": ["vocabulaire", "orthographe", "règle 4", "liste B", "dictée"],
+  "defaultEnabled": true,
+  "items": [
+    {
+      "id": "r4b-01",
+      "type": "texteATrous",
+      "skill": "regle-4-liste-b",
+      "prompt": "Nous sautons à la ___ dans la cour de récréation.",
+      "answers": ["corde"],
+      "strict": true
+    },
+    {
+      "id": "r4b-02",
+      "type": "texteATrous",
+      "skill": "regle-4-liste-b",
+      "prompt": "Le squelette soutient tout le ___.",
+      "answers": ["corps"],
+      "hint": "Deux lettres muettes à la fin.",
+      "strict": true
+    },
+    {
+      "id": "r4b-03",
+      "type": "texteATrous",
+      "skill": "regle-4-liste-b",
+      "prompt": "L'équipe a gagné la ___ Stanley.",
+      "answers": ["coupe"],
+      "strict": true
+    },
+    {
+      "id": "r4b-04",
+      "type": "texteATrous",
+      "skill": "regle-4-liste-b",
+      "prompt": "Mon ___ de plomb est bien taillé.",
+      "answers": ["crayon"],
+      "strict": true
+    },
+    {
+      "id": "r4b-05",
+      "type": "texteATrous",
+      "skill": "regle-4-liste-b",
+      "prompt": "Arthur met de la ___ glacée sur sa tarte.",
+      "answers": ["crème"],
+      "hint": "Accent grave sur le e.",
+      "strict": true
+    },
+    {
+      "id": "r4b-06",
+      "type": "texteATrous",
+      "skill": "regle-4-liste-b",
+      "prompt": "Elle a fait une ___ sur le calendrier pour marquer la date.",
+      "answers": ["croix"],
+      "strict": true
+    },
+    {
+      "id": "r4b-07",
+      "type": "texteATrous",
+      "skill": "regle-4-liste-b",
+      "prompt": "Prends une ___ pour manger ta soupe.",
+      "answers": ["cuillère"],
+      "hint": "Deux l, et un accent grave.",
+      "strict": true
+    },
+    {
+      "id": "r4b-08",
+      "type": "texteATrous",
+      "skill": "regle-4-liste-b",
+      "prompt": "Arthur est très ___ : il pose mille questions.",
+      "answers": ["curieux"],
+      "strict": true
+    },
+    {
+      "id": "r4b-assoc",
+      "type": "association",
+      "skill": "regle-4-sens",
+      "instruction": "Associe chaque mot de la liste B à son sens.",
+      "pairs": [
+        { "left": "créer", "right": "inventer quelque chose de nouveau" },
+        { "left": "creux", "right": "qui est vide à l'intérieur" },
+        { "left": "corde", "right": "un long fil solide" },
+        { "left": "curieux", "right": "qui veut tout savoir" }
+      ]
+    },
+    {
+      "id": "r4b-ortho-1",
+      "type": "qcm",
+      "skill": "regle-4-orthographe",
+      "question": "Quelle est la bonne orthographe ?",
+      "choices": ["cuillère", "cuillere", "cuiyère"],
+      "answer": 0,
+      "explanation": "Deux l pour le son [j], et un accent grave sur le e."
+    },
+    {
+      "id": "r4b-ortho-2",
+      "type": "qcm",
+      "skill": "regle-4-orthographe",
+      "question": "Quelle est la bonne orthographe ?",
+      "choices": ["crème", "crême", "creme"],
+      "answer": 0,
+      "explanation": "Accent grave, pas circonflexe : la crème."
+    },
+    {
+      "id": "r4b-ortho-3",
+      "type": "qcm",
+      "skill": "regle-4-orthographe",
+      "question": "Quelle est la bonne orthographe du verbe à l'infinitif ?",
+      "choices": ["créer", "créé", "crer"],
+      "answer": 0,
+      "explanation": "« créer » a deux e : l'accent aigu, puis le -er de l'infinitif."
+    },
+    {
+      "id": "r4b-corps",
+      "type": "vraiFaux",
+      "skill": "lettres-muettes",
+      "statement": "Dans le mot « corps », on entend le son [p] à la fin.",
+      "answer": false,
+      "explanation": "Non : on dit [kɔʁ]. Le p et le s sont muets. C'est pour ça qu'il faut mémoriser ce mot."
+    },
+    {
+      "id": "r4b-alpha",
+      "type": "ordre",
+      "skill": "ordre-alphabetique",
+      "instruction": "Place ces mots de la liste B en ordre alphabétique.",
+      "sequence": ["corde", "corps", "coupe", "crayon"],
+      "explanation": "corde et corps : d avant p. Puis cor- avant cou-, et co- avant cr-."
+    },
+    {
+      "id": "r4b-recap",
+      "type": "classement",
+      "skill": "regle-4-listes",
+      "instruction": "Ce mot vient-il de la liste A ou de la liste B ?",
+      "buckets": ["Liste A", "Liste B"],
+      "tokens": [
+        { "text": "cabane", "bucket": "Liste A" },
+        { "text": "cuillère", "bucket": "Liste B" },
+        { "text": "capitaine", "bucket": "Liste A" },
+        { "text": "croix", "bucket": "Liste B" },
+        { "text": "continent", "bucket": "Liste A" },
+        { "text": "crayon", "bucket": "Liste B" }
+      ],
+      "explanation": "Les mots de la liste B commencent tous par co-, cr- ou cu-."
+    }
+  ]
+}
