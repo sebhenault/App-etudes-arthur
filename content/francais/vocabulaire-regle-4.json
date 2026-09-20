@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "id": "fr-vocabulaire-regle-4",
+  "title": "Vocabulaire — Règle 4 : [k]... s'écrit c...",
+  "subject": "francais",
+  "topic": "vocabulaire",
+  "grade": 4,
+  "difficulty": 2,
+  "estimatedMinutes": 6,
+  "source": "Cartable Étude français, 4e année version A, page 6 — Règle 4, liste A (code Alloprof : mmfdk)",
+  "description": "Au début du mot, quand on entend [k], on écrit « c ». Les 10 mots de la liste A.",
+  "tags": ["vocabulaire", "orthographe", "règle 4", "dictée"],
+  "defaultEnabled": true,
+  "items": [
+    {
+      "id": "r4-regle",
+      "type": "qcm",
+      "skill": "regle-4-enonce",
+      "question": "Que dit la règle 4 ?",
+      "choices": [
+        "Au début du mot, quand on entend [k], on écrit « c »",
+        "Au début du mot, [k] s'écrit toujours « k »",
+        "À la fin du mot, [k] s'écrit « c »"
+      ],
+      "answer": 0,
+      "explanation": "On ENTEND [k] au début → on ÉCRIT « c ». Ex. : **c**abane, **c**arton, **c**ontinent."
+    },
+    {
+      "id": "r4-son-c",
+      "type": "classement",
+      "skill": "c-dur-c-doux",
+      "instruction": "La lettre « c » se prononce-t-elle [k] ou [s] ?",
+      "buckets": ["c se dit [k]", "c se dit [s]"],
+      "tokens": [
+        { "text": "cabane", "bucket": "c se dit [k]" },
+        { "text": "cerise", "bucket": "c se dit [s]" },
+        { "text": "carton", "bucket": "c se dit [k]" },
+        { "text": "cinéma", "bucket": "c se dit [s]" },
+        { "text": "continent", "bucket": "c se dit [k]" },
+        { "text": "citron", "bucket": "c se dit [s]" }
+      ],
+      "explanation": "Le « c » se dit [k] devant a, o, u — et [s] devant e, i, y. Regarde les mots de la liste : tous ont un c suivi de a, o, u ou r."
+    },
+    {
+      "id": "r4-01",
+      "type": "texteATrous",
+      "skill": "regle-4-liste-a",
+      "prompt": "Nous avons construit une ___ dans les bois.",
+      "answers": ["cabane"],
+      "strict": true
+    },
+    {
+      "id": "r4-02",
+      "type": "texteATrous",
+      "skill": "regle-4-liste-a",
+      "prompt": "Arthur a lancé un ___ dans l'eau.",
+      "answers": ["caillou"],
+      "hint": "Deux l, et ça se termine par -ou.",
+      "strict": true
+    },
+    {
+      "id": "r4-03",
+      "type": "texteATrous",
+      "skill": "regle-4-liste-a",
+      "prompt": "Le ___ dirige le navire.",
+      "answers": ["capitaine"],
+      "strict": true
+    },
+    {
+      "id": "r4-04",
+      "type": "texteATrous",
+      "skill": "regle-4-liste-a",
+      "prompt": "Range tes livres dans la boîte en ___.",
+      "answers": ["carton"],
+      "strict": true
+    },
+    {
+      "id": "r4-05",
+      "type": "texteATrous",
+      "skill": "regle-4-liste-a",
+      "prompt": "La pluie est la ___ de notre retard.",
+      "answers": ["cause"],
+      "strict": true
+    },
+    {
+      "id": "r4-06",
+      "type": "texteATrous",
+      "skill": "regle-4-liste-a",
+      "prompt": "J'aimerais ___ la réponse à cette question.",
+      "answers": ["connaitre", "connaître"],
+      "hint": "Après « aimerais », le verbe reste à l'infinitif.",
+      "strict": true,
+      "explanation": "La feuille écrit « connaitre » (nouvelle orthographe). « connaître » avec l'accent circonflexe reste correct."
+    },
+    {
+      "id": "r4-07",
+      "type": "texteATrous",
+      "skill": "regle-4-liste-a",
+      "prompt": "L'Amérique est un ___.",
+      "answers": ["continent"],
+      "strict": true
+    },
+    {
+      "id": "r4-08",
+      "type": "texteATrous",
+      "skill": "regle-4-liste-a",
+      "prompt": "Le ___ de « grand », c'est « petit ».",
+      "answers": ["contraire"],
+      "strict": true
+    },
+    {
+      "id": "r4-assoc",
+      "type": "association",
+      "skill": "regle-4-sens",
+      "instruction": "Associe chaque mot de la liste A à son sens.",
+      "pairs": [
+        { "left": "capable", "right": "qui sait faire quelque chose" },
+        { "left": "cas", "right": "une situation particulière" },
+        { "left": "cause", "right": "la raison de quelque chose" },
+        { "left": "contraire", "right": "l'inverse" }
+      ]
+    },
+    {
+      "id": "r4-ortho-1",
+      "type": "qcm",
+      "skill": "regle-4-orthographe",
+      "question": "Quelle est la bonne orthographe ?",
+      "choices": ["caillou", "cayou", "caillout"],
+      "answer": 0,
+      "explanation": "Le son [j] s'écrit « ill », et le mot se termine par -ou. Au pluriel : des cailloux."
+    },
+    {
+      "id": "r4-ortho-2",
+      "type": "qcm",
+      "skill": "regle-4-orthographe",
+      "question": "Quelle est la bonne orthographe ?",
+      "choices": ["capitaine", "capitène", "capitainne"],
+      "answer": 0,
+      "explanation": "Le son [ɛn] s'écrit ici « aine », avec un seul n."
+    },
+    {
+      "id": "r4-ortho-3",
+      "type": "qcm",
+      "skill": "regle-4-orthographe",
+      "question": "Quelle est la bonne orthographe ?",
+      "choices": ["capable", "cappable", "quapable"],
+      "answer": 0,
+      "explanation": "Un seul p, et le son [k] du début s'écrit bien « c »."
+    },
+    {
+      "id": "r4-alpha",
+      "type": "ordre",
+      "skill": "ordre-alphabetique",
+      "instruction": "Place ces mots de la liste A en ordre alphabétique.",
+      "sequence": ["cabane", "caillou", "capable", "capitaine"],
+      "explanation": "Tous commencent par « ca ». On compare la 3e lettre : b, i, p — puis capable et capitaine se départagent à la 4e : a avant i."
+    },
+    {
+      "id": "r4-exception",
+      "type": "vraiFaux",
+      "skill": "regle-4-limites",
+      "statement": "Le mot « quatre » commence par le son [k], donc il s'écrit avec un « c ».",
+      "answer": false,
+      "explanation": "Non. Le son [k] s'écrit le plus souvent « c », mais pas toujours : quatre, kangourou, chorale. La règle 4 donne l'orthographe la plus fréquente, pas la seule."
+    }
+  ]
+}
